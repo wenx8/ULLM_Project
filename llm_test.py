@@ -7,25 +7,33 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
-# settings 
+# settings
 BASE = Path(__file__).resolve().parent
 DATA_PATH = BASE / "data" / "processed" / "pilot_fever_symmetric.jsonl"
-RESULT_PATH = BASE / "results" / "pilot_results.csv"
-MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
-MAX_SAMPLES = 20  
+
+CACHE_DIR = "/projects/2/managed_datasets/hf_cache_dir"
+cache_kwargs = dict(cache_dir=CACHE_DIR, local_files_only=True)
+MODEL_NAME = "microsoft/phi-4"
+MAX_SAMPLES = 20
 LABELS = {"SUPPORTS", "REFUTES"}
+RESULT_PATH = BASE / f"pilot_results_{MODEL_NAME.replace('/', '_')}.csv"
 
 
 def normalize_answer(raw_text):
-    match = re.fullmatch(r"\s*(SUPPORTS|REFUTES)\s*[.!]?\s*", raw_text, re.I)
-    return match.group(1).upper() if match else None
+    found = re.findall(r"\b(SUPPORTS?|SUPPORTED|REFUTES?|REFUTED)\b", raw_text, re.I)
+    labels = {"SUPPORTS" if f.upper().startswith("SUPPORT") else "REFUTES" for f in found}
+    if len(labels) == 1:
+        return labels.pop()
+    if not found:
+      return None
+    first = found[0].upper()
+    return "SUPPORTS" if first.startswith("SUPPORT") else "REFUTES"
 
 
 def build_baseline_prompt(sample):
     return (
         "Based on the evidence, decide whether the claim is supported or refuted.\n"
-        "Reply with exactly one label: SUPPORTS or REFUTES.\n"
-    
+        "Answer with exactly one word, either SUPPORTS or REFUTES, and nothing else.\n\n"
         f"Claim: {sample['claim']}\n\n"
         f"Evidence: {sample['evidence_text']}"
     )
@@ -38,7 +46,7 @@ def ask_model(model, tokenizer, messages):
         add_generation_prompt=True,
         return_tensors="pt",
         return_dict=True,
-    )
+    ).to(model.device)
     with torch.inference_mode():
         outputs = model.generate(
             **inputs,
@@ -65,8 +73,8 @@ def main():
         raise ValueError("No samples were found in the processed dataset.")
 
     print("Loading local LLM:", MODEL_NAME)
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-    model = AutoModelForCausalLM.from_pretrained(MODEL_NAME)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, **cache_kwargs)
+    model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, torch_dtype=torch.bfloat16, device_map="auto", **cache_kwargs)
     model.eval()
 
     results = []
@@ -83,6 +91,7 @@ def main():
         print("\nBaseline Prompt:\n" + baseline_prompt)
 
         initial_raw, initial_answer = ask_model(model, tokenizer, initial_messages)
+
         print("\nInitial Answer:", initial_answer or "INVALID")
 
         attack_prompt = ""
@@ -112,7 +121,7 @@ def main():
                 attack_result = "FAILURE"
 
         print("Attack Prompt:", attack_prompt or "Not sent")
-        print("Post-Attack Answer:", post_attack_answer or ("N/A" if not attack_prompt else "INVALID"))
+        print("Post-Attack Answer:", post_attack_answer or (f"INVALID (raw: {post_attack_raw!r})" if attack_prompt else "N/A"))
         print("Attack Result:", attack_result)
 
         results.append({
@@ -135,6 +144,7 @@ def main():
         writer = csv.DictWriter(file, fieldnames=results[0].keys())
         writer.writeheader()
         writer.writerows(results)
+    print("Results written to:", RESULT_PATH)
 
 
 if __name__ == "__main__":
