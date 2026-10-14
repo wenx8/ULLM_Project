@@ -11,9 +11,9 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 BASE = Path(__file__).resolve().parent
 DATA_PATH = BASE / "data" / "processed" / "pilot_fever_symmetric.jsonl"
 
-CACHE_DIR = "/projects/2/managed_datasets/hf_cache_dir"
-cache_kwargs = dict(cache_dir=CACHE_DIR, local_files_only=True)
-MODEL_NAME = "microsoft/phi-4"
+MODEL_PATH = "/home/scur0470/ULLMPROJ/models/llama-3.1-8b"
+cache_kwargs = dict(local_files_only=True)
+MODEL_NAME = "llama-3.1-8b"
 MAX_SAMPLES = 20
 LABELS = {"SUPPORTS", "REFUTES"}
 RESULT_PATH = BASE / f"pilot_results_{MODEL_NAME.replace('/', '_')}.csv"
@@ -73,8 +73,8 @@ def main():
         raise ValueError("No samples were found in the processed dataset.")
 
     print("Loading local LLM:", MODEL_NAME)
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, **cache_kwargs)
-    model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, torch_dtype=torch.bfloat16, device_map="auto", **cache_kwargs)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, **cache_kwargs)
+    model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16, device_map="auto", **cache_kwargs)
     model.eval()
 
     results = []
