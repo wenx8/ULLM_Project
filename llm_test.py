@@ -14,7 +14,7 @@ DATA_PATH = BASE / "data" / "processed" / "pilot_fever_symmetric.jsonl"
 MODEL_PATH = "/home/scur0470/ULLMPROJ/models/llama-3.1-8b"
 cache_kwargs = dict(local_files_only=True)
 MODEL_NAME = "llama-3.1-8b"
-MAX_SAMPLES = 20
+MAX_SAMPLES = None
 LABELS = {"SUPPORTS", "REFUTES"}
 RESULT_PATH = BASE / f"pilot_results_{MODEL_NAME.replace('/', '_')}.csv"
 
