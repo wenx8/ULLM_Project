@@ -11,9 +11,15 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 BASE = Path(__file__).resolve().parent
 DATA_PATH = BASE / "data" / "processed" / "pilot_fever_symmetric.jsonl"
 
-MODEL_PATH = "/home/scur0470/ULLMPROJ/models/llama-3.1-8b"
+#remeber to change the path and model name when running a different one, plus other things that ill comment
+#also, for oss might need to use a bigger partition, like a100
+
+
+#MODEL_PATH = "/home/scur0470/ULLMPROJ/models/llama-3.1-8b"
+MODEL_PATH = "/home/scur0470/ULLMPROJ/models/gpt-oss"
 cache_kwargs = dict(local_files_only=True)
-MODEL_NAME = "llama-3.1-8b"
+#MODEL_NAME = "llama-3.1-8b"
+MODEL_NAME = "gpt-oss-20b"
 MAX_SAMPLES = None
 LABELS = {"SUPPORTS", "REFUTES"}
 RESULT_PATH = BASE / f"pilot_results_{MODEL_NAME.replace('/', '_')}.csv"
@@ -46,18 +52,23 @@ def ask_model(model, tokenizer, messages):
         add_generation_prompt=True,
         return_tensors="pt",
         return_dict=True,
+        reasoning_effort = "low"
     ).to(model.device)
     with torch.inference_mode():
         outputs = model.generate(
             **inputs,
-            max_new_tokens=16,
+            max_new_tokens=512,
             do_sample=False,
             pad_token_id=tokenizer.eos_token_id,
         )
     raw_answer = tokenizer.decode(
         outputs[0][inputs["input_ids"].shape[-1]:],
-        skip_special_tokens=True,
+        skip_special_tokens=False,
     ).strip()
+    marker = "<|channel|>final<|message|>"
+    if marker in raw_answer:
+      raw_answer = raw_answer.split(marker)[-1]
+    raw_answer = raw_answer.replace("<|return|>", "").replace("<|end|>", "").strip()
     return raw_answer, normalize_answer(raw_answer)
 
 
