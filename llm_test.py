@@ -14,13 +14,28 @@ DATA_PATH = BASE / "data" / "processed" / "pilot_fever_symmetric.jsonl"
 #remeber to change the path and model name when running a different one, plus other things that ill comment
 #also, for oss might need to use a bigger partition, like a100
 
+#chosenModel = input()
+MODEL_NAME = "default"
+MODEL_PATH = "default"
 
-#MODEL_PATH = "/home/scur0470/ULLMPROJ/models/llama-3.1-8b"
-MODEL_PATH = "/home/scur0470/ULLMPROJ/models/gpt-oss"
+import sys
+
+MODELS = {
+    "llama": ("/home/scur0470/ULLMPROJ/models/llama-3.1-8b", "llama-3.1-8b"),
+    "oss":   ("/home/scur0470/ULLMPROJ/models/gpt-oss", "gpt-oss-20b"),
+}
+chosenModel = sys.argv[1] if len(sys.argv) > 1 else ""
+if chosenModel not in MODELS:
+    raise SystemExit(f"Usage: python llm_test.py [{'|'.join(MODELS)}]")
+MODEL_PATH, MODEL_NAME = MODELS[chosenModel]
+
+
+#
+
 cache_kwargs = dict(local_files_only=True)
-#MODEL_NAME = "llama-3.1-8b"
-MODEL_NAME = "gpt-oss-20b"
-MAX_SAMPLES = 10 #None
+#
+
+MAX_SAMPLES = None
 LABELS = {"SUPPORTS", "REFUTES"}
 # need to finalize the attack prompt texts
 ATTACK_PROMPTS = {
