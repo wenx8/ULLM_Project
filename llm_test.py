@@ -2,10 +2,14 @@ import csv
 import json
 import re
 from pathlib import Path
-
+import time
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
+FIELDS = ["sample_id", "claim", "evidence_text", "evidence_length_words",
+          "ground_truth_label", "baseline_prompt", "initial_answer", "strength",
+          "attack_prompt", "post_attack_answer", "attack_result",
+          "initial_full_response", "post_attack_full_response"]
 
 # settings
 BASE = Path(__file__).resolve().parent
@@ -36,7 +40,7 @@ MODEL_PATH, MODEL_NAME = MODELS[chosenModel]
 cache_kwargs = dict(local_files_only=True)
 #
 
-MAX_SAMPLES = None
+MAX_SAMPLES = 1000
 LABELS = {"SUPPORTS", "REFUTES"}
 # need to finalize the attack prompt texts
 ATTACK_PROMPTS = {
@@ -114,8 +118,25 @@ def main():
     model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16, device_map="auto", **cache_kwargs)
     model.eval()
 
+    RESULT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    done = set()
+    if RESULT_PATH.exists() and RESULT_PATH.stat().st_size > 0:
+        with RESULT_PATH.open(encoding="utf-8-sig", newline="") as f:
+            done = {row["sample_id"] for row in csv.DictReader(f)}
+    write_header = not RESULT_PATH.exists() or RESULT_PATH.stat().st_size == 0
+    print(f"{len(done)} samples already done, {len(samples) - len(done)} to go", flush=True)
+
+    out = RESULT_PATH.open("a", encoding="utf-8-sig", newline="")
+    writer = csv.DictWriter(out, fieldnames=FIELDS)
+    if write_header:
+        writer.writeheader()
+
     results = []
+    start = time.time()
     for number, sample in enumerate(samples, start=1):
+        if str(sample.get("id")) in done:
+            continue
+
         ground_truth = sample["label"]
         if ground_truth not in LABELS:
             raise ValueError(f"Unexpected label in sample {number}: {ground_truth}")
@@ -143,6 +164,7 @@ def main():
             attacks = [("N/A", "")]
 
         # Run each attack independently
+        rows = []
         for strength, attack_prompt in attacks:
             post_attack_raw = ""
             post_attack_answer = None
@@ -174,7 +196,7 @@ def main():
             print("Post-Attack Answer:", post_attack_answer or "N/A")
             print("Attack Result:", attack_result)
 
-            results.append({
+            rows.append({
                 "sample_id": sample.get("id"),
                 "claim": sample["claim"],
                 "evidence_text": sample["evidence_text"],
@@ -194,14 +216,20 @@ def main():
                 "initial_full_response": initial_raw,
                 "post_attack_full_response": post_attack_raw,
             })
+        writer.writerows(rows)
+        out.flush()
+        print(f"elapsed: {time.time() - start:.0f}s", flush=True)
 
-    RESULT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with RESULT_PATH.open("w", encoding="utf-8-sig", newline="") as file:
-        writer = csv.DictWriter(file, fieldnames=results[0].keys())
-        writer.writeheader()
-        writer.writerows(results)
+
+    # RESULT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    # with RESULT_PATH.open("w", encoding="utf-8-sig", newline="") as file:
+    #     writer = csv.DictWriter(file, fieldnames=results[0].keys())
+    #     writer.writeheader()
+    #     writer.writerows(results)
+    # print("Results written to:", RESULT_PATH)
+
+    out.close()
     print("Results written to:", RESULT_PATH)
-
 
 if __name__ == "__main__":
     main()
