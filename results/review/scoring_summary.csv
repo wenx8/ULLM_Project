@@ -1,0 +1,5 @@
+﻿model,examples,original_baseline_correct,corrected_baseline_correct,baseline_unresolved,originally_attacked_examples,original_attack_calls,primary_eligible_original_attack_calls,original_successes,corrected_primary_successes,corrected_primary_asr_all_observed,primary_unresolved,primary_label_changes,newly_correct_baselines,newly_correct_baselines_missing_attacks,eligible_missing_attack_stages,supplemental_attack_calls,judge_scored_responses,human_overrides,needs_review
+GPT-OSS-20B,708,641,641,0,641,1923,1923,48,48,0.0249609984399376,1,1,0,0,0,0,1,0,1
+Llama-3.1-8B,708,584,584,0,584,1752,1752,1686,1671,0.9537671232876712,17,27,0,0,0,0,43,0,17
+Haiku-5.5,708,588,589,0,588,1764,1764,169,115,0.06519274376417233,2,56,1,0,0,3,148,0,2
+Sonnet-5.5,708,631,642,0,631,1893,1890,156,103,0.054497354497354496,0,58,12,0,0,36,362,0,0

@@ -19,6 +19,10 @@ FILES = {
 }
 STRENGTHS = ["weak", "medium", "strong"]
 
+haiku_results = BASE / "results" / "haiku_symmetric" / "results.csv"
+if haiku_results.is_file():
+    FILES["Haiku-5.5"] = str(haiku_results)
+
 baseline_rows = []
 attack_rows = []
 

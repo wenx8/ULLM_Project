@@ -1,3 +1,10 @@
 # Python cache
 __pycache__/
 *.pyc
+.venv/
+.cache/
+.env
+.env.*
+!.env.example
+results/haiku_*/
+results/sonnet_*/

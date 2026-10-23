@@ -3,8 +3,7 @@ import json
 import re
 from pathlib import Path
 import time
-import torch
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from scoring import parse_label
 
 FIELDS = ["sample_id", "claim", "evidence_text", "evidence_length_words",
           "ground_truth_label", "baseline_prompt", "initial_answer", "strength",
@@ -29,10 +28,6 @@ MODELS = {
     "oss":   ("/home/scur0470/ULLMPROJ/models/gpt-oss-20b", "gpt-oss-20b"),
     "qwen": ("/home/scur0470/ULLMPROJ/models/qwen2.5-7b", "qwen2.5-7b"),
 }
-chosenModel = sys.argv[1] if len(sys.argv) > 1 else ""
-if chosenModel not in MODELS:
-    raise SystemExit(f"Usage: python llm_test.py [{'|'.join(MODELS)}]")
-MODEL_PATH, MODEL_NAME = MODELS[chosenModel]
 
 
 #
@@ -52,7 +47,8 @@ RESULT_PATH = BASE / f"pilot_orig_results_{MODEL_NAME.replace('/', '_')}.csv"
 
 
 
-def normalize_answer(raw_text):
+def legacy_normalize_answer(raw_text):
+    """Historical first-match policy, retained only for explicit legacy replay."""
     found = re.findall(r"\b(SUPPORTS?|SUPPORTED|REFUTES?|REFUTED)\b", raw_text, re.I)
     labels = {"SUPPORTS" if f.upper().startswith("SUPPORT") else "REFUTES" for f in found}
     if len(labels) == 1:
@@ -61,6 +57,11 @@ def normalize_answer(raw_text):
       return None
     first = found[0].upper()
     return "SUPPORTS" if first.startswith("SUPPORT") else "REFUTES"
+
+
+def normalize_answer(raw_text):
+    """Safely extract future answers; ambiguous text is reviewed offline."""
+    return parse_label(raw_text)
 
 
 def build_baseline_prompt(sample):
@@ -73,6 +74,7 @@ def build_baseline_prompt(sample):
 
 
 def ask_model(model, tokenizer, messages):
+    import torch
     inputs = tokenizer.apply_chat_template(
         messages,
         tokenize=True,
@@ -103,6 +105,14 @@ def ask_model(model, tokenizer, messages):
 
 
 def main():
+    import torch
+    from transformers import AutoTokenizer, AutoModelForCausalLM
+
+    chosen_model = sys.argv[1] if len(sys.argv) > 1 else ""
+    if chosen_model not in MODELS:
+        raise SystemExit(f"Usage: python llm_test.py [{'|'.join(MODELS)}]")
+    MODEL_PATH, MODEL_NAME = MODELS[chosen_model]
+    RESULT_PATH = BASE / f"pilot_orig_results_{MODEL_NAME.replace('/', '_')}.csv"
     if not DATA_PATH.is_file():
         raise FileNotFoundError(f"Pilot dataset not found: {DATA_PATH}")
 

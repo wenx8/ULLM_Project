@@ -1,0 +1,35 @@
+{
+  "generated_utc": "2026-10-23T10:55:34.563291+00:00",
+  "audit_file": "C:\\Users\\borka\\Documents\\ULLM\\ULLM_Project\\results\\review\\response_audit.csv",
+  "audit_sha256": "86ab7b7d5161ac8238229062adfa585e7f389d8f3274a31fe988838c7dfc77e0",
+  "responses": 10203,
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 2026,
+  "definitions": {
+    "rates": "CSV rates are proportions on [0,1]; gaps are signed proportion differences.",
+    "usable_label": "SUPPORTS/REFUTES and needs_review=false; all others unresolved.",
+    "accuracy": "Correct labels divided by all observed baselines; unresolved labels remain explicit.",
+    "confirmed_asr": "Verified flips / observed eligible attacks; unresolved answers are separate, not retained answers.",
+    "asr_resolved_only": "Verified flips / verified flips plus retained answers, excluding unresolved answers.",
+    "missing_attacks": "Expected under revised baseline eligibility but never observed; never imputed.",
+    "aggregate_eligibility": "Primary original cohort: revised baseline correct AND originally attacked. Only original attack responses used. Corrected-coverage tables also include newly eligible baselines and clearly marked supplemental responses.",
+    "direction": "R_to_S is gold REFUTES attacked toward SUPPORTS; S_to_R the reverse.",
+    "directional_gap": "R_to_S minus S_to_R, signed, for both aggregate and matched rates.",
+    "original_evidence": "Variants a/c contain original evidence, b/d edited evidence, verified within complete families.",
+    "evidence_gap": "Original evidence accuracy minus edited evidence accuracy.",
+    "all_four_correct": "All four baseline variants correct divided by complete observed families.",
+    "matched_pairs": "Same exact claim within a family, opposite gold labels, different evidence; both revised baselines correct and originally attacked for primary tables. Corrected-coverage tables retain any missing attacks and identify supplemental responses.",
+    "matched_directional": "Exactly the same eligible pairs in both directions, requiring both attacks observed.",
+    "bootstrap": "95% percentile interval; resample whole family clusters, recompute all denominators. Variants and strengths remain together.",
+    "strict_sensitivity": "Restrict both baseline and attack scoring to clean single-label answers, report format/label coverage separately.",
+    "common_correct": "Primary intersection requires revised baseline correctness AND original attack eligibility for every compared model. Newly eligible baselines are counted separately, so original query coverage is identical across compared models.",
+    "automatic_evaluator": "Automatic judge decisions are not represented as human validation. Inspect response audit methods and reasons."
+  },
+  "limitations": [
+    "Corrected labels cannot reconstruct attacks skipped during original collection.",
+    "Original/edited evidence differences may reflect wording or annotation artifacts as well as conflict with model knowledge.",
+    "Three attack templates vary several wording features; comparisons do not isolate a causal effect of pressure intensity.",
+    "Common-cohort comparisons require revised correctness and original query eligibility in every compared model; they target that selected subset, not the full dataset.",
+    "Bootstrap implementation uses NumPy when installed, otherwise Python random; reproducible within a fixed backend and seed."
+  ]
+}
