@@ -3,7 +3,7 @@ import json
 import random
 from pathlib import Path
 
-# 1. File paths 
+# 1. File paths
 
 BASE = Path(__file__).parent
 DATA = BASE / "data"
@@ -14,7 +14,7 @@ output_path = DATA / "processed" / "pilot_fever_symmetric.jsonl"
 output_path.parent.mkdir(parents=True, exist_ok=True)
 
 
-# 2. Load FEVER-Symmetric 
+# 2. Load FEVER-Symmetric
 with open(dev_path, "r", encoding="utf-8") as f:
     dataset = [json.loads(line) for line in f if line.strip()]
 
@@ -26,19 +26,19 @@ print("SUPPORTS:", len(supports))
 print("REFUTES:", len(refutes))
 
 
-# 3. Select pilot samples 
+# 3. Select pilot samples
 
 rng = random.Random(42)
 
 samples = (
-    rng.sample(supports, 10)
-    + rng.sample(refutes, 10)
+    rng.sample(supports, len(supports))
+    + rng.sample(refutes, len(refutes))
 )
 
 rng.shuffle(samples)
 
 
-# 4. Preprocess data 
+# 4. Preprocess data
 
 processed_data = []
 

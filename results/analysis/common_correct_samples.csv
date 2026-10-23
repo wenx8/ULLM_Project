@@ -1,0 +1,1417 @@
+﻿comparison_group,sample_id,display_id,group_id,ground_truth_label,claim,all_models_baseline_correct,all_models_primary_eligible
+all_models,97,001a,001,SUPPORTS,Craig David is a pop music performer .,True,True
+all_models,970000002,001b,001,REFUTES,Craig David is a pop music performer .,True,False
+all_models,970000003,001c,001,REFUTES,Craig David is a country music performer .,True,True
+all_models,970000004,001d,001,SUPPORTS,Craig David is a country music performer .,False,False
+all_models,2948,002a,002,REFUTES,The Mod Squad is an American movie .,True,True
+all_models,29480000002,002b,002,SUPPORTS,The Mod Squad is an American movie .,False,False
+all_models,29480000003,002c,002,SUPPORTS,The Mod Squad is an American series .,True,True
+all_models,29480000004,002d,002,REFUTES,The Mod Squad is an American series .,False,False
+all_models,3583,003a,003,SUPPORTS,Robert Palmer ( writer ) has written for the New York Times .,True,True
+all_models,35830000002,003b,003,REFUTES,Robert Palmer ( writer ) has written for the New York Times .,True,True
+all_models,35830000003,003c,003,REFUTES,Robert Palmer ( writer ) has written for the Washington Post .,True,True
+all_models,35830000004,003d,003,SUPPORTS,Robert Palmer ( writer ) has written for the Washington Post .,True,True
+all_models,6113,004a,004,SUPPORTS,Richard Alf was one of the founders of San Diego Comic-Con .,True,True
+all_models,61130000002,004b,004,REFUTES,Richard Alf was one of the founders of San Diego Comic-Con .,True,True
+all_models,61130000003,004c,004,REFUTES,Adam Yala was one of the founders of San Diego Comic-Con .,True,True
+all_models,61130000004,004d,004,SUPPORTS,Adam Yala was one of the founders of San Diego Comic-Con .,True,True
+all_models,10328,005a,005,REFUTES,"Sidse Babett Knudsen graduated on November 22nd , 1968 .",False,False
+all_models,103280000002,005b,005,SUPPORTS,"Sidse Babett Knudsen graduated on November 22nd , 1968 .",False,False
+all_models,103280000003,005c,005,SUPPORTS,"Sidse Babett Knudsen was born on November 22nd , 1968 .",True,True
+all_models,103280000004,005d,005,REFUTES,"Sidse Babett Knudsen was born on November 22nd , 1968 .",True,True
+all_models,11497,006a,006,SUPPORTS,Ashton Kutcher was in two films in 2005 .,True,True
+all_models,114970000002,006b,006,REFUTES,Ashton Kutcher was in two films in 2005 .,False,False
+all_models,114970000003,006c,006,REFUTES,Ashton Kutcher was in three films in 2005 .,True,False
+all_models,114970000004,006d,006,SUPPORTS,Ashton Kutcher was in three films in 2005 .,True,True
+all_models,12454,007a,007,REFUTES,Tangled is a silent film .,True,True
+all_models,124540000002,007b,007,SUPPORTS,Tangled is a silent film .,False,False
+all_models,124540000003,007c,007,SUPPORTS,Tangled is not a silent film .,True,True
+all_models,124540000004,007d,007,REFUTES,Tangled is not a silent film .,True,False
+all_models,14019,008a,008,REFUTES,Tatum O'Neal is childless .,True,True
+all_models,140190000002,008b,008,SUPPORTS,Tatum O'Neal is childless .,False,False
+all_models,140190000003,008c,008,SUPPORTS,Tatum O'Neal had children .,True,True
+all_models,140190000004,008d,008,REFUTES,Tatum O'Neal had children .,True,True
+all_models,14767,009a,009,REFUTES,Colin Kaepernick was backup to the president .,True,True
+all_models,147670000002,009b,009,SUPPORTS,Colin Kaepernick was backup to the president .,False,False
+all_models,147670000003,009c,009,SUPPORTS,Colin Kaepernick was backup to Alex Smith .,True,True
+all_models,147670000004,009d,009,REFUTES,Colin Kaepernick was backup to Alex Smith .,True,True
+all_models,15307,010a,010,SUPPORTS,Tim Roth is an English actor .,True,True
+all_models,153070000002,010b,010,REFUTES,Tim Roth is an English actor .,True,True
+all_models,153070000003,010c,010,REFUTES,Tim Roth is an American actor .,True,True
+all_models,153070000004,010d,010,SUPPORTS,Tim Roth is an American actor .,True,True
+all_models,18565,011a,011,SUPPORTS,The album One of the Boys contains I Kissed a Girl .,True,True
+all_models,185650000002,011b,011,REFUTES,The album One of the Boys contains I Kissed a Girl .,False,False
+all_models,185650000003,011c,011,REFUTES,The album One of the Girls contains I Kissed a Girl .,False,False
+all_models,185650000004,011d,011,SUPPORTS,The album One of the Girls contains I Kissed a Girl .,True,True
+all_models,20605,012a,012,REFUTES,Bad Romance was one of the worst-selling singles of all time .,True,True
+all_models,206050000002,012b,012,SUPPORTS,Bad Romance was one of the worst-selling singles of all time .,False,False
+all_models,206050000003,012c,012,SUPPORTS,Bad Romance was one of the bestt-selling singles of all time .,True,True
+all_models,206050000004,012d,012,REFUTES,Bad Romance was one of the bestt-selling singles of all time .,True,True
+all_models,21558,013a,013,SUPPORTS,Policies implemented by Margaret Thatcher came to be known as Thatcherism .,True,True
+all_models,215580000002,013b,013,REFUTES,Policies implemented by Margaret Thatcher came to be known as Thatcherism .,False,False
+all_models,215580000003,013c,013,REFUTES,Speeches by Margaret Thatcher came to be known as Thatcherism .,False,False
+all_models,215580000004,013d,013,SUPPORTS,Speeches by Margaret Thatcher came to be known as Thatcherism .,True,True
+all_models,21775,014a,014,REFUTES,Vedam was written and directed by Christopher Nolan .,True,True
+all_models,217750000002,014b,014,SUPPORTS,Vedam was written and directed by Christopher Nolan .,False,False
+all_models,217750000003,014c,014,SUPPORTS,Vedam was written and directed by Radhakrishna Jagarlamudi .,True,True
+all_models,217750000004,014d,014,REFUTES,Vedam was written and directed by Radhakrishna Jagarlamudi .,True,True
+all_models,23628,015a,015,SUPPORTS,NRG Recording Studios is a recording space .,True,True
+all_models,236280000002,015b,015,REFUTES,NRG Recording Studios is a recording space .,True,True
+all_models,236280000003,015c,015,REFUTES,NRG Recording Studios is a dance club .,True,True
+all_models,236280000004,015d,015,SUPPORTS,NRG Recording Studios is a dance club .,False,False
+all_models,24480,016a,016,SUPPORTS,David Spade starred in Joe Dirt 2 : Beautiful Loser .,True,True
+all_models,244800000002,016b,016,REFUTES,David Spade starred in Joe Dirt 2 : Beautiful Loser .,False,False
+all_models,244800000003,016c,016,REFUTES,David Spade directed in Joe Dirt 2 : Beautiful Loser .,False,False
+all_models,244800000004,016d,016,SUPPORTS,David Spade directed in Joe Dirt 2 : Beautiful Loser .,True,True
+all_models,24684,017a,017,SUPPORTS,Arizona is a state in the United States .,True,True
+all_models,246840000002,017b,017,REFUTES,Arizona is a state in the United States .,True,True
+all_models,246840000003,017c,017,REFUTES,Arizona is a state in Mexico .,True,True
+all_models,246840000004,017d,017,SUPPORTS,Arizona is a state in Mexico .,False,False
+all_models,26300,018a,018,SUPPORTS,Heavy Metal music was developed in the early 1970 's .,True,True
+all_models,263000000002,018b,018,REFUTES,Heavy Metal music was developed in the early 1970 's .,False,False
+all_models,263000000003,018c,018,REFUTES,Heavy Metal music was developed in the early 1990 's .,True,True
+all_models,263000000004,018d,018,SUPPORTS,Heavy Metal music was developed in the early 1990 's .,False,False
+all_models,26839,019a,019,REFUTES,Hedda Gabler 's world premiere took place at the Battle of Hastings .,True,True
+all_models,268390000002,019b,019,SUPPORTS,Hedda Gabler 's world premiere took place at the Battle of Hastings .,False,False
+all_models,268390000003,019c,019,SUPPORTS,Hedda Gabler 's world premiere took place at the Residenztheater in Munich .,True,True
+all_models,268390000004,019d,019,REFUTES,Hedda Gabler 's world premiere took place at the Residenztheater in Munich .,True,True
+all_models,27497,020a,020,REFUTES,Peking University is in Thailand .,True,True
+all_models,274970000002,020b,020,SUPPORTS,Peking University is in Thailand .,False,False
+all_models,274970000003,020c,020,SUPPORTS,Peking University is in China .,True,True
+all_models,274970000004,020d,020,REFUTES,Peking University is in China .,True,True
+all_models,27869,021a,021,REFUTES,Mount Rushmore was created by sculptor Tom Brady .,True,True
+all_models,278690000002,021b,021,SUPPORTS,Mount Rushmore was created by sculptor Tom Brady .,False,False
+all_models,278690000003,021c,021,SUPPORTS,Mount Rushmore was created by sculptor Gutzon Borglum .,True,True
+all_models,278690000004,021d,021,REFUTES,Mount Rushmore was created by sculptor Gutzon Borglum .,True,True
+all_models,29857,022a,022,REFUTES,Mary of Teck 's son never abdicated the throne .,True,True
+all_models,298570000002,022b,022,SUPPORTS,Mary of Teck 's son never abdicated the throne .,False,False
+all_models,298570000003,022c,022,SUPPORTS,Mary of Teck 's son abdicated the throne .,True,True
+all_models,298570000004,022d,022,REFUTES,Mary of Teck 's son abdicated the throne .,False,False
+all_models,35309,023a,023,REFUTES,Wolfgang Mozart had only daughters .,True,True
+all_models,353090000002,023b,023,SUPPORTS,Wolfgang Mozart had only daughters .,False,False
+all_models,353090000003,023c,023,SUPPORTS,Wolfgang Mozart had two sons .,True,True
+all_models,353090000004,023d,023,REFUTES,Wolfgang Mozart had two sons .,True,True
+all_models,36092,024a,024,SUPPORTS,Liverpool is in Europe .,True,True
+all_models,360920000002,024b,024,REFUTES,Liverpool is in Europe .,False,False
+all_models,360920000003,024c,024,REFUTES,Liverpool is in Australia .,True,True
+all_models,360920000004,024d,024,SUPPORTS,Liverpool is in Australia .,False,False
+all_models,36886,025a,025,REFUTES,Carlos Santana was born in the fifties .,False,False
+all_models,368860000002,025b,025,SUPPORTS,Carlos Santana was born in the fifties .,True,True
+all_models,368860000003,025c,025,SUPPORTS,Carlos Santana was born in the forties .,True,True
+all_models,368860000004,025d,025,REFUTES,Carlos Santana was born in the forties .,True,True
+all_models,39606,026a,026,REFUTES,Neil Diamond is not a musician .,True,True
+all_models,396060000002,026b,026,SUPPORTS,Neil Diamond is not a musician .,False,False
+all_models,396060000003,026c,026,SUPPORTS,Neil Diamond is not a football player .,True,True
+all_models,396060000004,026d,026,REFUTES,Neil Diamond is not a football player .,True,True
+all_models,41810,027a,027,REFUTES,"Prescott , Arizona is a county .",True,True
+all_models,418100000002,027b,027,SUPPORTS,"Prescott , Arizona is a county .",False,False
+all_models,418100000003,027c,027,SUPPORTS,"Prescott , Arizona is a city .",True,True
+all_models,418100000004,027d,027,REFUTES,"Prescott , Arizona is a city .",True,True
+all_models,41850,028a,028,SUPPORTS,Bret Easton Ellis wrote the screenplay for The Canyons .,True,True
+all_models,418500000002,028b,028,REFUTES,Bret Easton Ellis wrote the screenplay for The Canyons .,True,True
+all_models,418500000003,028c,028,REFUTES,Robin Singh wrote the screenplay for The Canyons .,True,True
+all_models,418500000004,028d,028,SUPPORTS,Robin Singh wrote the screenplay for The Canyons .,True,True
+all_models,42188,029a,029,SUPPORTS,The horse has changed in size as it evolved .,True,True
+all_models,421880000002,029b,029,REFUTES,The horse has changed in size as it evolved .,False,False
+all_models,421880000003,029c,029,REFUTES,The horse has not changed in size as it evolved .,True,True
+all_models,421880000004,029d,029,SUPPORTS,The horse has not changed in size as it evolved .,False,False
+all_models,43776,030a,030,REFUTES,Colin Kaepernick is a poker player .,True,True
+all_models,437760000002,030b,030,SUPPORTS,Colin Kaepernick is a poker player .,True,True
+all_models,437760000003,030c,030,SUPPORTS,Colin Kaepernick is a football player .,True,True
+all_models,437760000004,030d,030,REFUTES,Colin Kaepernick is a football player .,True,True
+all_models,46464,031a,031,REFUTES,Carlos Santana is a US president .,True,True
+all_models,464640000002,031b,031,SUPPORTS,Carlos Santana is a US president .,False,False
+all_models,464640000003,031c,031,SUPPORTS,Carlos Santana is a musician .,True,True
+all_models,464640000004,031d,031,REFUTES,Carlos Santana is a musician .,True,True
+all_models,46513,032a,032,SUPPORTS,The filming of Dilwale Dulhania Le Jayenge finished in August 1995 .,True,True
+all_models,465130000002,032b,032,REFUTES,The filming of Dilwale Dulhania Le Jayenge finished in August 1995 .,False,False
+all_models,465130000003,032c,032,REFUTES,The filming of Dilwale Dulhania Le Jayenge finished in August 1895 .,True,True
+all_models,465130000004,032d,032,SUPPORTS,The filming of Dilwale Dulhania Le Jayenge finished in August 1895 .,False,False
+all_models,47911,033a,033,SUPPORTS,The Mod Squad is a series that fits into the genre of crime drama .,True,True
+all_models,479110000002,033b,033,REFUTES,The Mod Squad is a series that fits into the genre of crime drama .,False,False
+all_models,479110000003,033c,033,REFUTES,The Mod Squad is a series that fits into the genre of pornography .,True,True
+all_models,479110000004,033d,033,SUPPORTS,The Mod Squad is a series that fits into the genre of pornography .,False,False
+all_models,48707,034a,034,REFUTES,Ekta Kapoor only worked in film .,False,False
+all_models,487070000002,034b,034,SUPPORTS,Ekta Kapoor only worked in film .,False,False
+all_models,487070000003,034c,034,SUPPORTS,Ekta Kapoor did not work in film .,False,False
+all_models,487070000004,034d,034,REFUTES,Ekta Kapoor did not work in film .,True,True
+all_models,50810,035a,035,REFUTES,Pharrell Williams is not a musician .,False,False
+all_models,508100000002,035b,035,SUPPORTS,Pharrell Williams is not a musician .,False,False
+all_models,508100000003,035c,035,SUPPORTS,Pharrell Williams is a musician .,True,True
+all_models,508100000004,035d,035,REFUTES,Pharrell Williams is a musician .,False,False
+all_models,52186,036a,036,SUPPORTS,"On February 2 , 2013 , Chris Kyle died .",True,True
+all_models,521860000002,036b,036,REFUTES,"On February 2 , 2013 , Chris Kyle died .",True,True
+all_models,521860000003,036c,036,REFUTES,"On February 2 , 2014 , Chris Kyle died .",True,True
+all_models,521860000004,036d,036,SUPPORTS,"On February 2 , 2014 , Chris Kyle died .",True,True
+all_models,54168,037a,037,REFUTES,Murda Beatz 's real name is Marshall Mathers .,True,True
+all_models,541680000002,037b,037,SUPPORTS,Murda Beatz 's real name is Marshall Mathers .,False,False
+all_models,541680000003,037c,037,SUPPORTS,Murda Beatz 's real name is Murda Beatz .,False,False
+all_models,541680000004,037d,037,REFUTES,Murda Beatz 's real name is Murda Beatz .,True,True
+all_models,54253,038a,038,REFUTES,Daggering is associated with the genre of death metal .,True,True
+all_models,542530000002,038b,038,SUPPORTS,Daggering is associated with the genre of death metal .,True,True
+all_models,542530000003,038c,038,SUPPORTS,Daggering is associated with the genre of dancehall music .,True,True
+all_models,542530000004,038d,038,REFUTES,Daggering is associated with the genre of dancehall music .,True,True
+all_models,55294,039a,039,SUPPORTS,House is an American medical drama .,True,True
+all_models,552940000002,039b,039,REFUTES,House is an American medical drama .,True,True
+all_models,552940000003,039c,039,REFUTES,House is an American horror drama .,False,False
+all_models,552940000004,039d,039,SUPPORTS,House is an American horror drama .,True,True
+all_models,60685,040a,040,SUPPORTS,Trollhunters was produced by an animation company .,True,True
+all_models,606850000002,040b,040,REFUTES,Trollhunters was produced by an animation company .,True,False
+all_models,606850000003,040c,040,REFUTES,Trollhunters was produced by an pornographic company .,True,True
+all_models,606850000004,040d,040,SUPPORTS,Trollhunters was produced by an pornographic company .,False,False
+all_models,68032,041a,041,SUPPORTS,Hot Right Now is from Nextlevelism .,True,True
+all_models,680320000002,041b,041,REFUTES,Hot Right Now is from Nextlevelism .,True,True
+all_models,680320000003,041c,041,REFUTES,Hot Right Now is from Kryptonite .,True,True
+all_models,680320000004,041d,041,SUPPORTS,Hot Right Now is from Kryptonite .,True,True
+all_models,68232,042a,042,REFUTES,I Kissed a Girl was recorded by cats .,True,True
+all_models,682320000002,042b,042,SUPPORTS,I Kissed a Girl was recorded by cats .,True,True
+all_models,682320000003,042c,042,SUPPORTS,I Kissed a Girl was recorded by Katy Perry .,True,True
+all_models,682320000004,042d,042,REFUTES,I Kissed a Girl was recorded by Katy Perry .,True,True
+all_models,68443,043a,043,REFUTES,Pharrell Williams does not play drums .,False,False
+all_models,684430000002,043b,043,SUPPORTS,Pharrell Williams does not play drums .,False,False
+all_models,684430000003,043c,043,SUPPORTS,Pharrell Williams plays drums .,True,True
+all_models,684430000004,043d,043,REFUTES,Pharrell Williams plays drums .,True,True
+all_models,70812,044a,044,REFUTES,The Rock plays Riddick .,True,True
+all_models,708120000002,044b,044,SUPPORTS,The Rock plays Riddick .,False,False
+all_models,708120000003,044c,044,SUPPORTS,Actor Vin Diesel plays Riddick .,True,True
+all_models,708120000004,044d,044,REFUTES,Actor Vin Diesel plays Riddick .,True,True
+all_models,71376,045a,045,REFUTES,Annette Badland was unable to appear in Wizards vs Aliens .,True,True
+all_models,713760000002,045b,045,SUPPORTS,Annette Badland was unable to appear in Wizards vs Aliens .,False,False
+all_models,713760000003,045c,045,SUPPORTS,Annette Badland appeared in Wizards vs Aliens .,True,True
+all_models,713760000004,045d,045,REFUTES,Annette Badland appeared in Wizards vs Aliens .,False,False
+all_models,71511,046a,046,REFUTES,T2 Trainspotting is a 2017 British comedy drama book .,True,True
+all_models,715110000002,046b,046,SUPPORTS,T2 Trainspotting is a 2017 British comedy drama book .,True,True
+all_models,715110000003,046c,046,SUPPORTS,T2 Trainspotting is a 2017 British comedy drama film .,True,True
+all_models,715110000004,046d,046,REFUTES,T2 Trainspotting is a 2017 British comedy drama film .,False,False
+all_models,72436,047a,047,REFUTES,The Bahamas is a city .,True,True
+all_models,724360000002,047b,047,SUPPORTS,The Bahamas is a city .,False,False
+all_models,724360000003,047c,047,SUPPORTS,The Bahamas is a state .,True,True
+all_models,724360000004,047d,047,REFUTES,The Bahamas is a state .,True,True
+all_models,73351,048a,048,REFUTES,SpongeBob SquarePants is not an American series .,False,False
+all_models,733510000002,048b,048,SUPPORTS,SpongeBob SquarePants is not an American series .,False,False
+all_models,733510000003,048c,048,SUPPORTS,SpongeBob SquarePants is an American series .,True,True
+all_models,733510000004,048d,048,REFUTES,SpongeBob SquarePants is an American series .,True,True
+all_models,73471,049a,049,REFUTES,Uranium-235 was discovered by a person who was born in August of 2014 .,True,True
+all_models,734710000002,049b,049,SUPPORTS,Uranium-235 was discovered by a person who was born in August of 2014 .,False,False
+all_models,734710000003,049c,049,SUPPORTS,Uranium-235 was discovered in 1935 .,True,True
+all_models,734710000004,049d,049,REFUTES,Uranium-235 was discovered in 1935 .,True,True
+all_models,75599,050a,050,SUPPORTS,This is an ethnic group called Lithuanians .,True,True
+all_models,755990000002,050b,050,REFUTES,This is an ethnic group called Lithuanians .,False,False
+all_models,755990000003,050c,050,REFUTES,This is a non racial group called Lithuanians .,False,False
+all_models,755990000004,050d,050,SUPPORTS,This is a non racial group called Lithuanians .,True,True
+all_models,76265,051a,051,REFUTES,Efraim Diveroli had no relation to the arms industry .,True,True
+all_models,762650000002,051b,051,SUPPORTS,Efraim Diveroli had no relation to the arms industry .,False,False
+all_models,762650000003,051c,051,SUPPORTS,Efraim Diveroli was part of the arms industry .,True,True
+all_models,762650000004,051d,051,REFUTES,Efraim Diveroli was part of the arms industry .,True,True
+all_models,76611,052a,052,REFUTES,Harvard University is barely residential .,True,True
+all_models,766110000002,052b,052,SUPPORTS,Harvard University is barely residential .,True,True
+all_models,766110000003,052c,052,SUPPORTS,Harvard University is highly residential .,True,True
+all_models,766110000004,052d,052,REFUTES,Harvard University is highly residential .,True,True
+all_models,78305,053a,053,REFUTES,Lost is a political party .,True,True
+all_models,783050000002,053b,053,SUPPORTS,Lost is a political party .,False,False
+all_models,783050000003,053c,053,SUPPORTS,Lost is a television series .,True,True
+all_models,783050000004,053d,053,REFUTES,Lost is a television series .,True,True
+all_models,78846,054a,054,REFUTES,Daggering originated in Australia .,True,True
+all_models,788460000002,054b,054,SUPPORTS,Daggering originated in Australia .,True,True
+all_models,788460000003,054c,054,SUPPORTS,Daggering originated in Jamaica .,True,True
+all_models,788460000004,054d,054,REFUTES,Daggering originated in Jamaica .,True,True
+all_models,78997,055a,055,REFUTES,Veeru Devgan only works in Hollywood .,True,True
+all_models,789970000002,055b,055,SUPPORTS,Veeru Devgan only works in Hollywood .,False,False
+all_models,789970000003,055c,055,SUPPORTS,Veeru Devgan only works in Bollywood .,False,False
+all_models,789970000004,055d,055,REFUTES,Veeru Devgan only works in Bollywood .,True,True
+all_models,79538,056a,056,REFUTES,Sheryl Lee has yet to appear in a film as of 2016 .,True,True
+all_models,795380000002,056b,056,SUPPORTS,Sheryl Lee has yet to appear in a film as of 2016 .,False,False
+all_models,795380000003,056c,056,SUPPORTS,Sheryl Lee appeared in a film .,True,True
+all_models,795380000004,056d,056,REFUTES,Sheryl Lee appeared in a film .,True,True
+all_models,79771,057a,057,SUPPORTS,"In inherited cases , amyotrophic lateral sclerosis starts earlier .",True,True
+all_models,797710000002,057b,057,REFUTES,"In inherited cases , amyotrophic lateral sclerosis starts earlier .",True,True
+all_models,797710000003,057c,057,REFUTES,"In inherited cases , amyotrophic lateral sclerosis starts later .",False,False
+all_models,797710000004,057d,057,SUPPORTS,"In inherited cases , amyotrophic lateral sclerosis starts later .",True,True
+all_models,80205,058a,058,REFUTES,Reign Over Me was released in 2017 .,True,True
+all_models,802050000002,058b,058,SUPPORTS,Reign Over Me was released in 2017 .,True,True
+all_models,802050000003,058c,058,SUPPORTS,Reign Over Me was released in 2007 .,True,True
+all_models,802050000004,058d,058,REFUTES,Reign Over Me was released in 2007 .,True,True
+all_models,84187,059a,059,SUPPORTS,Sean Penn was in a movie .,True,True
+all_models,841870000002,059b,059,REFUTES,Sean Penn was in a movie .,True,True
+all_models,841870000003,059c,059,REFUTES,Sean Penn was a politician .,True,True
+all_models,841870000004,059d,059,SUPPORTS,Sean Penn was a politician .,False,False
+all_models,86242,060a,060,REFUTES,Meteora is not a rock album .,False,False
+all_models,862420000002,060b,060,SUPPORTS,Meteora is not a rock album .,False,False
+all_models,862420000003,060c,060,SUPPORTS,Meteora is a rock album .,False,False
+all_models,862420000004,060d,060,REFUTES,Meteora is a rock album .,True,True
+all_models,88040,061a,061,REFUTES,Due Date was shot in Montana .,True,True
+all_models,880400000002,061b,061,SUPPORTS,Due Date was shot in Montana .,True,True
+all_models,880400000003,061c,061,SUPPORTS,Part of Due Date was shot in New Mexico .,False,False
+all_models,880400000004,061d,061,REFUTES,Part of Due Date was shot in New Mexico .,True,True
+all_models,93064,062a,062,SUPPORTS,Humphrey Bogart was ranked greatest male star of Classic American cinema .,True,True
+all_models,930640000002,062b,062,REFUTES,Humphrey Bogart was ranked greatest male star of Classic American cinema .,True,True
+all_models,930640000003,062c,062,REFUTES,Humphrey Bogart was ranked worst male star of Classic American cinema .,True,True
+all_models,930640000004,062d,062,SUPPORTS,Humphrey Bogart was ranked worst male star of Classic American cinema .,True,True
+all_models,93273,063a,063,SUPPORTS,Amy Adams has a voice role in Underdog .,True,True
+all_models,932730000002,063b,063,REFUTES,Amy Adams has a voice role in Underdog .,True,True
+all_models,932730000003,063c,063,REFUTES,Amy Adams did not have a role in Underdog .,False,False
+all_models,932730000004,063d,063,SUPPORTS,Amy Adams did not have a role in Underdog .,True,True
+all_models,93624,064a,064,SUPPORTS,"Lockhead Martin F-35 Lightning II first flew on December 15th , 2006 .",True,True
+all_models,936240000002,064b,064,REFUTES,"Lockhead Martin F-35 Lightning II first flew on December 15th , 2006 .",True,True
+all_models,936240000003,064c,064,REFUTES,"Lockhead Martin F-35 Lightning II first flew on July 15th , 2006 .",True,True
+all_models,936240000004,064d,064,SUPPORTS,"Lockhead Martin F-35 Lightning II first flew on July 15th , 2006 .",True,True
+all_models,94746,065a,065,SUPPORTS,Lemmy had a distinct gravelly voice that made him known .,True,True
+all_models,947460000002,065b,065,REFUTES,Lemmy had a distinct gravelly voice that made him known .,True,True
+all_models,947460000003,065c,065,REFUTES,Lemmy had a distinct hair cut that made him known .,False,False
+all_models,947460000004,065d,065,SUPPORTS,Lemmy had a distinct hair cut that made him known .,True,True
+all_models,95239,066a,066,REFUTES,The Gifted is a murderer .,True,True
+all_models,952390000002,066b,066,SUPPORTS,The Gifted is a murderer .,False,False
+all_models,952390000003,066c,066,SUPPORTS,The Gifted is a television series .,True,True
+all_models,952390000004,066d,066,REFUTES,The Gifted is a television series .,True,True
+all_models,97091,067a,067,SUPPORTS,Colombiana was produced by a man .,False,False
+all_models,970910000002,067b,067,REFUTES,Colombiana was produced by a man .,True,True
+all_models,970910000003,067c,067,REFUTES,Colombiana was produced by a woman .,True,True
+all_models,970910000004,067d,067,SUPPORTS,Colombiana was produced by a woman .,False,False
+all_models,100584,068a,068,REFUTES,Same Old Love is disassociated from Selena Gomez .,False,False
+all_models,1005840000002,068b,068,SUPPORTS,Same Old Love is disassociated from Selena Gomez .,False,False
+all_models,1005840000003,068c,068,SUPPORTS,Same Old Love is associated with Selena Gomez .,True,True
+all_models,1005840000004,068d,068,REFUTES,Same Old Love is associated with Selena Gomez .,True,True
+all_models,102793,069a,069,SUPPORTS,Henry II of France died in a tournament devoted to celebrating the Peace of Cateau-Cambrésis .,True,True
+all_models,1027930000002,069b,069,REFUTES,Henry II of France died in a tournament devoted to celebrating the Peace of Cateau-Cambrésis .,False,False
+all_models,1027930000003,069c,069,REFUTES,Henry II of France died from a horse kick in the garden .,True,True
+all_models,1027930000004,069d,069,SUPPORTS,Henry II of France died from a horse kick in the garden .,True,True
+all_models,102875,070a,070,REFUTES,Croatia has a king .,True,True
+all_models,1028750000002,070b,070,SUPPORTS,Croatia has a king .,False,False
+all_models,1028750000003,070c,070,SUPPORTS,Croatia does not have king .,False,False
+all_models,1028750000004,070d,070,REFUTES,Croatia does not have king .,True,True
+all_models,103375,071a,071,REFUTES,Java was formed by earthquakes .,True,True
+all_models,1033750000002,071b,071,SUPPORTS,Java was formed by earthquakes .,False,False
+all_models,1033750000003,071c,071,SUPPORTS,Java was formed by volcanic eruptions .,True,True
+all_models,1033750000004,071d,071,REFUTES,Java was formed by volcanic eruptions .,True,True
+all_models,105095,072a,072,SUPPORTS,Nicholas Brody is a character on Homeland .,True,True
+all_models,1050950000002,072b,072,REFUTES,Nicholas Brody is a character on Homeland .,True,True
+all_models,1050950000003,072c,072,REFUTES,Nicholas Brody is a character on Game of Thrones .,True,True
+all_models,1050950000004,072d,072,SUPPORTS,Nicholas Brody is a character on Game of Thrones .,True,True
+all_models,105419,073a,073,REFUTES,Youtube is not a website .,False,False
+all_models,1054190000002,073b,073,SUPPORTS,Youtube is not a website .,False,False
+all_models,1054190000003,073c,073,SUPPORTS,Youtube is a website .,True,True
+all_models,1054190000004,073d,073,REFUTES,Youtube is a website .,True,True
+all_models,106010,074a,074,SUPPORTS,Liverpool is a tourist destination because of The Beatles .,True,True
+all_models,1060100000002,074b,074,REFUTES,Liverpool is a tourist destination because of The Beatles .,True,True
+all_models,1060100000003,074c,074,REFUTES,Liverpool is not a tourist destination despite of The Beatles .,True,True
+all_models,1060100000004,074d,074,SUPPORTS,Liverpool is not a tourist destination despite of The Beatles .,False,False
+all_models,106627,075a,075,REFUTES,I Kissed a Girl is part of Katy Perry 's first studio album .,True,True
+all_models,1066270000002,075b,075,SUPPORTS,I Kissed a Girl is part of Katy Perry 's first studio album .,True,True
+all_models,1066270000003,075c,075,SUPPORTS,I Kissed a Girl is part of Katy Perry 's second studio album .,True,True
+all_models,1066270000004,075d,075,REFUTES,I Kissed a Girl is part of Katy Perry 's second studio album .,True,True
+all_models,107667,076a,076,SUPPORTS,Ingushetia was named after Chechen-Ingush ASSR split into two .,False,False
+all_models,1076670000002,076b,076,REFUTES,Ingushetia was named after Chechen-Ingush ASSR split into two .,True,True
+all_models,1076670000003,076c,076,REFUTES,Ingushetia was named before Chechen-Ingush ASSR split into two .,False,False
+all_models,1076670000004,076d,076,SUPPORTS,Ingushetia was named before Chechen-Ingush ASSR split into two .,True,True
+all_models,107786,077a,077,SUPPORTS,Ann Richards was professionally involved in politics .,True,True
+all_models,1077860000002,077b,077,REFUTES,Ann Richards was professionally involved in politics .,True,True
+all_models,1077860000003,077c,077,REFUTES,Ann Richards was professionally involved in acting .,True,True
+all_models,1077860000004,077d,077,SUPPORTS,Ann Richards was professionally involved in acting .,True,True
+all_models,108281,078a,078,REFUTES,Andrew Kevin Walker is only Chinese .,True,True
+all_models,1082810000002,078b,078,SUPPORTS,Andrew Kevin Walker is only Chinese .,False,False
+all_models,1082810000003,078c,078,SUPPORTS,Andrew Kevin Walker is only American .,False,False
+all_models,1082810000004,078d,078,REFUTES,Andrew Kevin Walker is only American .,True,True
+all_models,109128,079a,079,SUPPORTS,Dilwale Dulhania Le Jayenge began filming in September 1994 .,True,True
+all_models,1091280000002,079b,079,REFUTES,Dilwale Dulhania Le Jayenge began filming in September 1994 .,True,True
+all_models,1091280000003,079c,079,REFUTES,Dilwale Dulhania Le Jayenge began filming in January 1994 .,True,True
+all_models,1091280000004,079d,079,SUPPORTS,Dilwale Dulhania Le Jayenge began filming in January 1994 .,True,True
+all_models,109785,080a,080,SUPPORTS,The horse has increased in size as it evolved .,True,True
+all_models,1097850000002,080b,080,REFUTES,The horse has increased in size as it evolved .,False,False
+all_models,1097850000003,080c,080,REFUTES,The horse has maintained its size as it evolved .,True,True
+all_models,1097850000004,080d,080,SUPPORTS,The horse has maintained its size as it evolved .,False,False
+all_models,113333,081a,081,REFUTES,Margaret Thatcher was not the first woman to lead a major political party in the United Kingdom .,True,True
+all_models,1133330000002,081b,081,SUPPORTS,Margaret Thatcher was not the first woman to lead a major political party in the United Kingdom .,False,False
+all_models,1133330000003,081c,081,SUPPORTS,Margaret Thatcher was the first woman to lead a major political party in the United Kingdom .,True,True
+all_models,1133330000004,081d,081,REFUTES,Margaret Thatcher was the first woman to lead a major political party in the United Kingdom .,True,True
+all_models,114567,082a,082,REFUTES,Seohyun is a dog .,True,True
+all_models,1145670000002,082b,082,SUPPORTS,Seohyun is a dog .,False,False
+all_models,1145670000003,082c,082,SUPPORTS,Seohyun is a singer .,True,True
+all_models,1145670000004,082d,082,REFUTES,Seohyun is a singer .,True,True
+all_models,114897,083a,083,REFUTES,Penélope Cruz refused to model for L'Oréal .,True,True
+all_models,1148970000002,083b,083,SUPPORTS,Penélope Cruz refused to model for L'Oréal .,True,True
+all_models,1148970000003,083c,083,SUPPORTS,Penélope Cruz modelled for L'Oréal .,True,True
+all_models,1148970000004,083d,083,REFUTES,Penélope Cruz modelled for L'Oréal .,True,True
+all_models,116319,084a,084,REFUTES,Hush ( 2016 film ) was written by Trevor Macy .,False,False
+all_models,1163190000002,084b,084,SUPPORTS,Hush ( 2016 film ) was written by Trevor Macy .,False,False
+all_models,1163190000003,084c,084,SUPPORTS,Hush ( 2016 film ) was written by Kate Siegel .,True,True
+all_models,1163190000004,084d,084,REFUTES,Hush ( 2016 film ) was written by Kate Siegel .,False,False
+all_models,117065,085a,085,REFUTES,Renato Balestra was born outside of Trieste .,True,True
+all_models,1170650000002,085b,085,SUPPORTS,Renato Balestra was born outside of Trieste .,False,False
+all_models,1170650000003,085c,085,SUPPORTS,Renato Balestra was born in Trieste .,True,True
+all_models,1170650000004,085d,085,REFUTES,Renato Balestra was born in Trieste .,True,True
+all_models,119215,086a,086,REFUTES,Ashley Graham is a US senator .,True,True
+all_models,1192150000002,086b,086,SUPPORTS,Ashley Graham is a US senator .,False,False
+all_models,1192150000003,086c,086,SUPPORTS,Ashley Graham is an American model .,True,True
+all_models,1192150000004,086d,086,REFUTES,Ashley Graham is an American model .,True,True
+all_models,120210,087a,087,REFUTES,Yara Shahidi is a dog .,True,True
+all_models,1202100000002,087b,087,SUPPORTS,Yara Shahidi is a dog .,False,False
+all_models,1202100000003,087c,087,SUPPORTS,Yara Shahidi is an actress .,True,True
+all_models,1202100000004,087d,087,REFUTES,Yara Shahidi is an actress .,True,False
+all_models,120480,088a,088,SUPPORTS,Darwin is the location where production of Australia ( 2008 film ) took place .,False,False
+all_models,1204800000002,088b,088,REFUTES,Darwin is the location where production of Australia ( 2008 film ) took place .,True,True
+all_models,1204800000003,088c,088,REFUTES,Canberra is the location where production of Australia ( 2008 film ) took place .,True,True
+all_models,1204800000004,088d,088,SUPPORTS,Canberra is the location where production of Australia ( 2008 film ) took place .,False,False
+all_models,120817,089a,089,REFUTES,Fantastic Four ( 2005 film ) was released on August .,True,True
+all_models,1208170000002,089b,089,SUPPORTS,Fantastic Four ( 2005 film ) was released on August .,True,True
+all_models,1208170000003,089c,089,SUPPORTS,Fantastic Four ( 2005 film ) was released on July .,True,True
+all_models,1208170000004,089d,089,REFUTES,Fantastic Four ( 2005 film ) was released on July .,True,True
+all_models,121119,090a,090,REFUTES,The 14th Dalai Lama lives in Japan exclusively .,True,True
+all_models,1211190000002,090b,090,SUPPORTS,The 14th Dalai Lama lives in Japan exclusively .,False,False
+all_models,1211190000003,090c,090,SUPPORTS,The 14th Dalai Lama lives in India exclusively .,False,False
+all_models,1211190000004,090d,090,REFUTES,The 14th Dalai Lama lives in India exclusively .,True,True
+all_models,122457,091a,091,REFUTES,The Chrysler Building has yet to be surpassed in height .,True,True
+all_models,1224570000002,091b,091,SUPPORTS,The Chrysler Building has yet to be surpassed in height .,False,False
+all_models,1224570000003,091c,091,SUPPORTS,The Chrysler Building has been surpassed in height .,True,True
+all_models,1224570000004,091d,091,REFUTES,The Chrysler Building has been surpassed in height .,True,True
+all_models,122673,092a,092,SUPPORTS,Global warming threatens food security .,True,True
+all_models,1226730000002,092b,092,REFUTES,Global warming threatens food security .,True,True
+all_models,1226730000003,092c,092,REFUTES,Global warming increases food security .,True,True
+all_models,1226730000004,092d,092,SUPPORTS,Global warming increases food security .,False,False
+all_models,122828,093a,093,SUPPORTS,Tracey Edmonds produced Soul Food .,True,True
+all_models,1228280000002,093b,093,REFUTES,Tracey Edmonds produced Soul Food .,True,False
+all_models,1228280000003,093c,093,REFUTES,Peter Jackson produced Soul Food .,True,True
+all_models,1228280000004,093d,093,SUPPORTS,Peter Jackson produced Soul Food .,True,True
+all_models,125437,094a,094,REFUTES,Dakota Fanning is not a model .,False,False
+all_models,1254370000002,094b,094,SUPPORTS,Dakota Fanning is not a model .,False,False
+all_models,1254370000003,094c,094,SUPPORTS,Dakota Fanning is also a model .,True,True
+all_models,1254370000004,094d,094,REFUTES,Dakota Fanning is also a model .,True,True
+all_models,126878,095a,095,REFUTES,"Aleister Crowley was born on June 12 , 1875 .",True,True
+all_models,1268780000002,095b,095,SUPPORTS,"Aleister Crowley was born on June 12 , 1875 .",True,True
+all_models,1268780000003,095c,095,SUPPORTS,"Aleister Crowley was born on October 12 , 1875 .",True,True
+all_models,1268780000004,095d,095,REFUTES,"Aleister Crowley was born on October 12 , 1875 .",True,True
+all_models,126973,096a,096,REFUTES,The horse has not grown in size as it evolved .,True,True
+all_models,1269730000002,096b,096,SUPPORTS,The horse has not grown in size as it evolved .,False,False
+all_models,1269730000003,096c,096,SUPPORTS,The horse has grown in size as it evolved .,True,True
+all_models,1269730000004,096d,096,REFUTES,The horse has grown in size as it evolved .,True,True
+all_models,126982,097a,097,REFUTES,Ashley Graham was never on a magazine cover .,True,True
+all_models,1269820000002,097b,097,SUPPORTS,Ashley Graham was never on a magazine cover .,False,False
+all_models,1269820000003,097c,097,SUPPORTS,Ashley Graham was on a magazine cover .,True,True
+all_models,1269820000004,097d,097,REFUTES,Ashley Graham was on a magazine cover .,True,True
+all_models,127539,098a,098,SUPPORTS,Morse Code is communication .,True,True
+all_models,1275390000002,098b,098,REFUTES,Morse Code is communication .,False,False
+all_models,1275390000003,098c,098,REFUTES,Morse Code is a programming language .,True,True
+all_models,1275390000004,098d,098,SUPPORTS,Morse Code is a programming language .,False,False
+all_models,128123,099a,099,REFUTES,Mohra is a truck .,True,True
+all_models,1281230000002,099b,099,SUPPORTS,Mohra is a truck .,True,True
+all_models,1281230000003,099c,099,SUPPORTS,Mohra is an action movie .,True,True
+all_models,1281230000004,099d,099,REFUTES,Mohra is an action movie .,True,True
+all_models,128741,100a,100,REFUTES,Poldark airs on HBO .,True,True
+all_models,1287410000002,100b,100,SUPPORTS,Poldark airs on HBO .,False,False
+all_models,1287410000003,100c,100,SUPPORTS,Poldark airs on BBC .,True,True
+all_models,1287410000004,100d,100,REFUTES,Poldark airs on BBC .,True,True
+all_models,129752,101a,101,SUPPORTS,The human brain contains a hypothalamus .,True,True
+all_models,1297520000002,101b,101,REFUTES,The human brain contains a hypothalamus .,False,False
+all_models,1297520000003,101c,101,REFUTES,The human brain contains a heart .,True,True
+all_models,1297520000004,101d,101,SUPPORTS,The human brain contains a heart .,False,False
+all_models,131931,102a,102,SUPPORTS,Basildon is a place .,True,True
+all_models,1319310000002,102b,102,REFUTES,Basildon is a place .,True,True
+all_models,1319310000003,102c,102,REFUTES,Basildon is a song .,True,True
+all_models,1319310000004,102d,102,SUPPORTS,Basildon is a song .,False,False
+all_models,138501,103a,103,REFUTES,Marjorie Gross has yet to write for a television show .,True,True
+all_models,1385010000002,103b,103,SUPPORTS,Marjorie Gross has yet to write for a television show .,True,True
+all_models,1385010000003,103c,103,SUPPORTS,Marjorie Gross writes for a television show .,True,True
+all_models,1385010000004,103d,103,REFUTES,Marjorie Gross writes for a television show .,True,True
+all_models,139030,104a,104,SUPPORTS,Peking University was founded as the replacement of a vintage school .,True,True
+all_models,1390300000002,104b,104,REFUTES,Peking University was founded as the replacement of a vintage school .,False,False
+all_models,1390300000003,104c,104,REFUTES,Peking University was founded as the extenstion of an existing school .,False,False
+all_models,1390300000004,104d,104,SUPPORTS,Peking University was founded as the extenstion of an existing school .,True,True
+all_models,140589,105a,105,SUPPORTS,The CONCACAF Champions League is put together for football unions in Central America .,False,False
+all_models,1405890000002,105b,105,REFUTES,The CONCACAF Champions League is put together for football unions in Central America .,True,True
+all_models,1405890000003,105c,105,REFUTES,The CONCACAF Champions League is put together for basketball unions in Central America .,True,True
+all_models,1405890000004,105d,105,SUPPORTS,The CONCACAF Champions League is put together for basketball unions in Central America .,False,False
+all_models,140758,106a,106,SUPPORTS,"In 1986 , Tatum O'Neal got married .",True,True
+all_models,1407580000002,106b,106,REFUTES,"In 1986 , Tatum O'Neal got married .",True,True
+all_models,1407580000003,106c,106,REFUTES,"In 1986 , Tatum O'Neal died .",True,True
+all_models,1407580000004,106d,106,SUPPORTS,"In 1986 , Tatum O'Neal died .",True,True
+all_models,140764,107a,107,REFUTES,Janet Leigh was incapable of writing .,True,True
+all_models,1407640000002,107b,107,SUPPORTS,Janet Leigh was incapable of writing .,False,False
+all_models,1407640000003,107c,107,SUPPORTS,Janet Leigh was a writer .,True,True
+all_models,1407640000004,107d,107,REFUTES,Janet Leigh was a writer .,True,True
+all_models,142130,108a,108,SUPPORTS,Moonlight premiered at the Telluride Film Festival in 2016 .,True,True
+all_models,1421300000002,108b,108,REFUTES,Moonlight premiered at the Telluride Film Festival in 2016 .,True,True
+all_models,1421300000003,108c,108,REFUTES,Moonlight premiered at the Telluride Film Festival in 2014 .,True,True
+all_models,1421300000004,108d,108,SUPPORTS,Moonlight premiered at the Telluride Film Festival in 2014 .,True,True
+all_models,144509,109a,109,REFUTES,Project Y 's mission was to build a new world .,True,True
+all_models,1445090000002,109b,109,SUPPORTS,Project Y 's mission was to build a new world .,True,True
+all_models,1445090000003,109c,109,SUPPORTS,Project Y 's mission was to design the first atomic bomb .,True,True
+all_models,1445090000004,109d,109,REFUTES,Project Y 's mission was to design the first atomic bomb .,True,True
+all_models,144589,110a,110,REFUTES,The Daily Show is incapable of being comedy focused .,False,False
+all_models,1445890000002,110b,110,SUPPORTS,The Daily Show is incapable of being comedy focused .,False,False
+all_models,1445890000003,110c,110,SUPPORTS,The Daily Show is a comedy show .,True,True
+all_models,1445890000004,110d,110,REFUTES,The Daily Show is a comedy show .,True,True
+all_models,145512,111a,111,REFUTES,"Harold Macmillan was born on February 20 , 1894 .",True,True
+all_models,1455120000002,111b,111,SUPPORTS,"Harold Macmillan was born on February 20 , 1894 .",True,True
+all_models,1455120000003,111c,111,SUPPORTS,"Harold Macmillan was born on February 10 , 1894 .",True,True
+all_models,1455120000004,111d,111,REFUTES,"Harold Macmillan was born on February 10 , 1894 .",True,True
+all_models,145570,112a,112,REFUTES,The series finale of Make It or Break It ended in 2013 .,True,True
+all_models,1455700000002,112b,112,SUPPORTS,The series finale of Make It or Break It ended in 2013 .,True,True
+all_models,1455700000003,112c,112,SUPPORTS,The series finale of Make It or Break It ended in 2012 .,True,True
+all_models,1455700000004,112d,112,REFUTES,The series finale of Make It or Break It ended in 2012 .,True,True
+all_models,145624,113a,113,REFUTES,Gin does not derive its main flavour from juniper berries .,True,True
+all_models,1456240000002,113b,113,SUPPORTS,Gin does not derive its main flavour from juniper berries .,False,False
+all_models,1456240000003,113c,113,SUPPORTS,Gin derive its main flavour from juniper berries .,True,True
+all_models,1456240000004,113d,113,REFUTES,Gin derive its main flavour from juniper berries .,True,True
+all_models,145672,114a,114,REFUTES,Ingushetia was established in 1993 .,True,True
+all_models,1456720000002,114b,114,SUPPORTS,Ingushetia was established in 1993 .,True,True
+all_models,1456720000003,114c,114,SUPPORTS,Ingushetia was established in 1992 .,True,True
+all_models,1456720000004,114d,114,REFUTES,Ingushetia was established in 1992 .,True,True
+all_models,146679,115a,115,REFUTES,The Concert for Bangladesh generated lack of awareness and insignificant funds .,True,True
+all_models,1466790000002,115b,115,SUPPORTS,The Concert for Bangladesh generated lack of awareness and insignificant funds .,True,True
+all_models,1466790000003,115c,115,SUPPORTS,The Concert for Bangladesh generated awareness and significant funds .,True,True
+all_models,1466790000004,115d,115,REFUTES,The Concert for Bangladesh generated awareness and significant funds .,True,True
+all_models,148471,116a,116,REFUTES,Kendall Jenner is a driver .,True,True
+all_models,1484710000002,116b,116,SUPPORTS,Kendall Jenner is a driver .,False,False
+all_models,1484710000003,116c,116,SUPPORTS,Kendall Jenner is a fashion model .,True,True
+all_models,1484710000004,116d,116,REFUTES,Kendall Jenner is a fashion model .,True,True
+all_models,149502,117a,117,SUPPORTS,In 2004 Paramore formed .,True,True
+all_models,1495020000002,117b,117,REFUTES,In 2004 Paramore formed .,True,False
+all_models,1495020000003,117c,117,REFUTES,In 2004 Paramore collapsed .,True,True
+all_models,1495020000004,117d,117,SUPPORTS,In 2004 Paramore collapsed .,True,True
+all_models,151650,118a,118,REFUTES,Daag is a painting .,True,True
+all_models,1516500000002,118b,118,SUPPORTS,Daag is a painting .,False,False
+all_models,1516500000003,118c,118,SUPPORTS,Daag is a film .,True,True
+all_models,1516500000004,118d,118,REFUTES,Daag is a film .,True,True
+all_models,155321,119a,119,SUPPORTS,Sophia Bush acted in movies .,True,True
+all_models,1553210000002,119b,119,REFUTES,Sophia Bush acted in movies .,False,False
+all_models,1553210000003,119c,119,REFUTES,Sophia Bush is a singer .,True,True
+all_models,1553210000004,119d,119,SUPPORTS,Sophia Bush is a singer .,False,False
+all_models,156903,120a,120,SUPPORTS,The Faroe Islands are not currently part of the Hereditary Kingdom of Norway .,False,False
+all_models,1569030000002,120b,120,REFUTES,The Faroe Islands are not currently part of the Hereditary Kingdom of Norway .,True,True
+all_models,1569030000003,120c,120,REFUTES,The Faroe Islands are currently part of the Hereditary Kingdom of Norway .,True,True
+all_models,1569030000004,120d,120,SUPPORTS,The Faroe Islands are currently part of the Hereditary Kingdom of Norway .,False,False
+all_models,157622,121a,121,REFUTES,Bhagat Singh was not a folk hero .,True,True
+all_models,1576220000002,121b,121,SUPPORTS,Bhagat Singh was not a folk hero .,False,False
+all_models,1576220000003,121c,121,SUPPORTS,Bhagat Singh was a folk hero .,True,True
+all_models,1576220000004,121d,121,REFUTES,Bhagat Singh was a folk hero .,True,True
+all_models,157777,122a,122,REFUTES,Yale University 's alumni includes zero U.S. Presidents .,True,True
+all_models,1577770000002,122b,122,SUPPORTS,Yale University 's alumni includes zero U.S. Presidents .,False,False
+all_models,1577770000003,122c,122,SUPPORTS,Yale University 's alumni includes five U.S. Presidents .,True,True
+all_models,1577770000004,122d,122,REFUTES,Yale University 's alumni includes five U.S. Presidents .,True,True
+all_models,159574,123a,123,SUPPORTS,Dan O'Bannon worked primarily in two genres .,False,False
+all_models,1595740000002,123b,123,REFUTES,Dan O'Bannon worked primarily in two genres .,False,False
+all_models,1595740000003,123c,123,REFUTES,Dan O'Bannon worked only in one genre .,True,True
+all_models,1595740000004,123d,123,SUPPORTS,Dan O'Bannon worked only in one genre .,False,False
+all_models,159944,124a,124,SUPPORTS,Christa McAuliffe taught social studies at Concord High School .,True,True
+all_models,1599440000002,124b,124,REFUTES,Christa McAuliffe taught social studies at Concord High School .,True,True
+all_models,1599440000003,124c,124,REFUTES,Christa McAuliffe taught physical education at Concord High School .,True,True
+all_models,1599440000004,124d,124,SUPPORTS,Christa McAuliffe taught physical education at Concord High School .,False,False
+all_models,161571,125a,125,SUPPORTS,Baz Luhrmann 's film Australia is solely an epic historical romantic comedy .,False,False
+all_models,1615710000002,125b,125,REFUTES,Baz Luhrmann 's film Australia is solely an epic historical romantic comedy .,True,True
+all_models,1615710000003,125c,125,REFUTES,Baz Luhrmann 's film Australia is solely a horror movie .,True,True
+all_models,1615710000004,125d,125,SUPPORTS,Baz Luhrmann 's film Australia is solely a horror movie .,False,False
+all_models,163980,126a,126,REFUTES,Veeram is something other than an Indian Tamil film .,False,False
+all_models,1639800000002,126b,126,SUPPORTS,Veeram is something other than an Indian Tamil film .,True,True
+all_models,1639800000003,126c,126,SUPPORTS,Veeram is an Indian Tamil film .,True,True
+all_models,1639800000004,126d,126,REFUTES,Veeram is an Indian Tamil film .,True,True
+all_models,164982,127a,127,SUPPORTS,Polar bears depend on the ocean as their main food source .,True,True
+all_models,1649820000002,127b,127,REFUTES,Polar bears depend on the ocean as their main food source .,True,True
+all_models,1649820000003,127c,127,REFUTES,Polar bears depend on the land as their main food source .,True,True
+all_models,1649820000004,127d,127,SUPPORTS,Polar bears depend on the land as their main food source .,False,False
+all_models,165898,128a,128,SUPPORTS,Alice Cooper has been working in his field for over 50 years .,True,True
+all_models,1658980000002,128b,128,REFUTES,Alice Cooper has been working in his field for over 50 years .,True,True
+all_models,1658980000003,128c,128,REFUTES,Alice Cooper has been working in his field for 30 years .,False,False
+all_models,1658980000004,128d,128,SUPPORTS,Alice Cooper has been working in his field for 30 years .,True,True
+all_models,166633,129a,129,REFUTES,Anne Rice was born in 1997 .,True,True
+all_models,1666330000002,129b,129,SUPPORTS,Anne Rice was born in 1997 .,False,False
+all_models,1666330000003,129c,129,SUPPORTS,Anne Rice was born in 1941 .,True,True
+all_models,1666330000004,129d,129,REFUTES,Anne Rice was born in 1941 .,True,True
+all_models,166916,130a,130,REFUTES,Johanna Braddy is known to have no appearances on television .,True,True
+all_models,1669160000002,130b,130,SUPPORTS,Johanna Braddy is known to have no appearances on television .,False,False
+all_models,1669160000003,130c,130,SUPPORTS,Johanna Braddy is known to have several appearances on television .,False,False
+all_models,1669160000004,130d,130,REFUTES,Johanna Braddy is known to have several appearances on television .,True,False
+all_models,168975,131a,131,REFUTES,Middle-earth is a real place .,True,True
+all_models,1689750000002,131b,131,SUPPORTS,Middle-earth is a real place .,False,False
+all_models,1689750000003,131c,131,SUPPORTS,Middle-earth is a fictional place .,True,True
+all_models,1689750000004,131d,131,REFUTES,Middle-earth is a fictional place .,True,True
+all_models,168976,132a,132,SUPPORTS,Middle-earth was created by British writer J. R. R. Tolkien .,True,True
+all_models,1689760000002,132b,132,REFUTES,Middle-earth was created by British writer J. R. R. Tolkien .,True,True
+all_models,1689760000003,132c,132,REFUTES,Middle-earth was created by British writer J. R. R. Martin .,True,True
+all_models,1689760000004,132d,132,SUPPORTS,Middle-earth was created by British writer J. R. R. Martin .,False,False
+all_models,170396,133a,133,SUPPORTS,Michael Vick is an American .,True,True
+all_models,1703960000002,133b,133,REFUTES,Michael Vick is an American .,True,True
+all_models,1703960000003,133c,133,REFUTES,Michael Vick is an African .,True,True
+all_models,1703960000004,133d,133,SUPPORTS,Michael Vick is an African .,False,False
+all_models,170398,134a,134,REFUTES,Michael Vick is only Armenian .,True,True
+all_models,1703980000002,134b,134,SUPPORTS,Michael Vick is only Armenian .,False,False
+all_models,1703980000003,134c,134,SUPPORTS,Michael Vick is only American .,False,False
+all_models,1703980000004,134d,134,REFUTES,Michael Vick is only American .,True,True
+all_models,170406,135a,135,REFUTES,"Michael Vick graduated college on June 26th , 1980 .",True,True
+all_models,1704060000002,135b,135,SUPPORTS,"Michael Vick graduated college on June 26th , 1980 .",False,False
+all_models,1704060000003,135c,135,SUPPORTS,"Michael Vick was born on June 26th , 1980 .",True,True
+all_models,1704060000004,135d,135,REFUTES,"Michael Vick was born on June 26th , 1980 .",False,False
+all_models,170949,136a,136,SUPPORTS,Smriti Mandhana is an Indian cricketer born in July .,True,True
+all_models,1709490000002,136b,136,REFUTES,Smriti Mandhana is an Indian cricketer born in July .,True,True
+all_models,1709490000003,136c,136,REFUTES,Smriti Mandhana is a Pakistani cricketer born in July .,True,True
+all_models,1709490000004,136d,136,SUPPORTS,Smriti Mandhana is a Pakistani cricketer born in July .,False,False
+all_models,173121,137a,137,SUPPORTS,Anne Sullivan was born in April of 1866 .,True,True
+all_models,1731210000002,137b,137,REFUTES,Anne Sullivan was born in April of 1866 .,True,True
+all_models,1731210000003,137c,137,REFUTES,Anne Sullivan was born in June of 1866 .,True,True
+all_models,1731210000004,137d,137,SUPPORTS,Anne Sullivan was born in June of 1866 .,False,False
+all_models,173496,138a,138,SUPPORTS,Sancho Panza is a character in Don Quixote .,True,True
+all_models,1734960000002,138b,138,REFUTES,Sancho Panza is a character in Don Quixote .,True,True
+all_models,1734960000003,138c,138,REFUTES,Sancho Panza is a character in Alibaba .,True,True
+all_models,1734960000004,138d,138,SUPPORTS,Sancho Panza is a character in Alibaba .,False,False
+all_models,174026,139a,139,REFUTES,The Endless River is an album by Danny Devito .,True,True
+all_models,1740260000002,139b,139,SUPPORTS,The Endless River is an album by Danny Devito .,True,True
+all_models,1740260000003,139c,139,SUPPORTS,The Endless River is not an album by Danny Devito .,False,False
+all_models,1740260000004,139d,139,REFUTES,The Endless River is not an album by Danny Devito .,True,True
+all_models,174580,140a,140,REFUTES,"Artpop only sold about 100,000 copies .",True,True
+all_models,1745800000002,140b,140,SUPPORTS,"Artpop only sold about 100,000 copies .",False,False
+all_models,1745800000003,140c,140,SUPPORTS,"Artpop sold more than 100,000 copies .",True,True
+all_models,1745800000004,140d,140,REFUTES,"Artpop sold more than 100,000 copies .",False,False
+all_models,179007,141a,141,SUPPORTS,Steve Ditko studied at the Cartoonist and Illustrators School .,True,True
+all_models,1790070000002,141b,141,REFUTES,Steve Ditko studied at the Cartoonist and Illustrators School .,True,True
+all_models,1790070000003,141c,141,REFUTES,Steve Ditko studied at the Berklee School of Music .,True,True
+all_models,1790070000004,141d,141,SUPPORTS,Steve Ditko studied at the Berklee School of Music .,True,True
+all_models,180732,142a,142,SUPPORTS,Victoria ( Dance Exponents song ) was in 1982 .,True,True
+all_models,1807320000002,142b,142,REFUTES,Victoria ( Dance Exponents song ) was in 1982 .,True,True
+all_models,1807320000003,142c,142,REFUTES,Victoria ( Dance Exponents song ) was in 1979 .,True,True
+all_models,1807320000004,142d,142,SUPPORTS,Victoria ( Dance Exponents song ) was in 1979 .,True,True
+all_models,181634,143a,143,SUPPORTS,There is a capital called Mogadishu .,True,True
+all_models,1816340000002,143b,143,REFUTES,There is a capital called Mogadishu .,False,False
+all_models,1816340000003,143c,143,REFUTES,There is a country called Mogadishu .,False,False
+all_models,1816340000004,143d,143,SUPPORTS,There is a country called Mogadishu .,False,False
+all_models,181871,144a,144,SUPPORTS,Princess Mononoke has a dark atmosphere .,True,True
+all_models,1818710000002,144b,144,REFUTES,Princess Mononoke has a dark atmosphere .,True,True
+all_models,1818710000003,144c,144,REFUTES,Princess Mononoke has a happy atmosphere .,True,True
+all_models,1818710000004,144d,144,SUPPORTS,Princess Mononoke has a happy atmosphere .,False,False
+all_models,184050,145a,145,SUPPORTS,Kenneth Lonergan is a writer of plays .,True,True
+all_models,1840500000002,145b,145,REFUTES,Kenneth Lonergan is a writer of plays .,False,False
+all_models,1840500000003,145c,145,REFUTES,Kenneth Lonergan is a writer of books .,True,True
+all_models,1840500000004,145d,145,SUPPORTS,Kenneth Lonergan is a writer of books .,True,True
+all_models,184083,146a,146,SUPPORTS,Ernest Medina participated in the My Lai Massacre .,True,True
+all_models,1840830000002,146b,146,REFUTES,Ernest Medina participated in the My Lai Massacre .,True,True
+all_models,1840830000003,146c,146,REFUTES,Ernest Medina was away from the My Lai Massacre .,False,False
+all_models,1840830000004,146d,146,SUPPORTS,Ernest Medina was away from the My Lai Massacre .,False,False
+all_models,186996,147a,147,SUPPORTS,Bermuda Triangle is also known by another name .,True,True
+all_models,1869960000002,147b,147,REFUTES,Bermuda Triangle is also known by another name .,True,True
+all_models,1869960000003,147c,147,REFUTES,Bermuda Triangle has no other name .,False,False
+all_models,1869960000004,147d,147,SUPPORTS,Bermuda Triangle has no other name .,False,False
+all_models,192714,148a,148,SUPPORTS,CBS is the network that aired The Millers .,True,True
+all_models,1927140000002,148b,148,REFUTES,CBS is the network that aired The Millers .,True,True
+all_models,1927140000003,148c,148,REFUTES,ABC is the network that aired The Millers .,False,False
+all_models,1927140000004,148d,148,SUPPORTS,ABC is the network that aired The Millers .,False,False
+all_models,194922,149a,149,SUPPORTS,Stripes had a person appear in it .,False,False
+all_models,1949220000002,149b,149,REFUTES,Stripes had a person appear in it .,True,True
+all_models,1949220000003,149c,149,REFUTES,Stripes was computer animated .,True,True
+all_models,1949220000004,149d,149,SUPPORTS,Stripes was computer animated .,False,False
+all_models,195818,150a,150,REFUTES,Jeong Hyeong-don has refused to ever work under FNC Entertainment .,True,True
+all_models,1958180000002,150b,150,SUPPORTS,Jeong Hyeong-don has refused to ever work under FNC Entertainment .,False,False
+all_models,1958180000003,150c,150,SUPPORTS,Jeong Hyeong-don works under FNC Entertainment .,True,True
+all_models,1958180000004,150d,150,REFUTES,Jeong Hyeong-don works under FNC Entertainment .,True,True
+all_models,196740,151a,151,REFUTES,Marnie is a romantic film .,True,True
+all_models,1967400000002,151b,151,SUPPORTS,Marnie is a romantic film .,True,True
+all_models,1967400000003,151c,151,SUPPORTS,Marnie is a psychological thriller film .,True,True
+all_models,1967400000004,151d,151,REFUTES,Marnie is a psychological thriller film .,True,True
+all_models,196960,152a,152,SUPPORTS,Diwali spiritually signifies the victory of light over darkness .,True,True
+all_models,1969600000002,152b,152,REFUTES,Diwali spiritually signifies the victory of light over darkness .,True,True
+all_models,1969600000003,152c,152,REFUTES,Diwali spiritually signifies the victory of children over parents .,True,True
+all_models,1969600000004,152d,152,SUPPORTS,Diwali spiritually signifies the victory of children over parents .,True,True
+all_models,197381,153a,153,REFUTES,Simón Bolívar is only known as Simón Bolívar .,False,False
+all_models,1973810000002,153b,153,SUPPORTS,Simón Bolívar is only known as Simón Bolívar .,False,False
+all_models,1973810000003,153c,153,SUPPORTS,Simón Bolívar is known as El Libertador .,True,True
+all_models,1973810000004,153d,153,REFUTES,Simón Bolívar is known as El Libertador .,False,False
+all_models,199410,154a,154,SUPPORTS,"Boyhood is about Mason Evans , Jr 's childhood .",True,True
+all_models,1994100000002,154b,154,REFUTES,"Boyhood is about Mason Evans , Jr 's childhood .",False,False
+all_models,1994100000003,154c,154,REFUTES,"Boyhood is about Mason Evans , Jr 's death .",True,True
+all_models,1994100000004,154d,154,SUPPORTS,"Boyhood is about Mason Evans , Jr 's death .",True,True
+all_models,201095,155a,155,SUPPORTS,There is a British actor name Marcus Bentley .,True,True
+all_models,2010950000002,155b,155,REFUTES,There is a British actor name Marcus Bentley .,True,True
+all_models,2010950000003,155c,155,REFUTES,There is an Indian actor name Marcus Bentley .,True,True
+all_models,2010950000004,155d,155,SUPPORTS,There is an Indian actor name Marcus Bentley .,True,True
+all_models,202454,156a,156,REFUTES,Tinker Tailor Soldier Spy is a music video .,True,True
+all_models,2024540000002,156b,156,SUPPORTS,Tinker Tailor Soldier Spy is a music video .,False,False
+all_models,2024540000003,156c,156,SUPPORTS,Tinker Tailor Soldier Spy is an espionage film .,True,True
+all_models,2024540000004,156d,156,REFUTES,Tinker Tailor Soldier Spy is an espionage film .,True,True
+all_models,202940,157a,157,SUPPORTS,Avenged Sevenfold was released in October .,True,True
+all_models,2029400000002,157b,157,REFUTES,Avenged Sevenfold was released in October .,True,True
+all_models,2029400000003,157c,157,REFUTES,Avenged Sevenfold was released in March .,True,True
+all_models,2029400000004,157d,157,SUPPORTS,Avenged Sevenfold was released in March .,True,True
+all_models,204361,158a,158,SUPPORTS,The Cretaceous ended .,True,True
+all_models,2043610000002,158b,158,REFUTES,The Cretaceous ended .,True,True
+all_models,2043610000003,158c,158,REFUTES,The Cretaceous began .,True,True
+all_models,2043610000004,158d,158,SUPPORTS,The Cretaceous began .,False,False
+all_models,204432,159a,159,REFUTES,Brad Wilk died before helping to co-found Rage .,True,True
+all_models,2044320000002,159b,159,SUPPORTS,Brad Wilk died before helping to co-found Rage .,False,False
+all_models,2044320000003,159c,159,SUPPORTS,Brad Wilk helped to co-found Rage .,True,True
+all_models,2044320000004,159d,159,REFUTES,Brad Wilk helped to co-found Rage .,True,True
+all_models,205739,160a,160,REFUTES,First Motion Picture Unit produced zero training films .,True,True
+all_models,2057390000002,160b,160,SUPPORTS,First Motion Picture Unit produced zero training films .,False,False
+all_models,2057390000003,160c,160,SUPPORTS,First Motion Picture Unit produced 400 training films .,True,True
+all_models,2057390000004,160d,160,REFUTES,First Motion Picture Unit produced 400 training films .,True,True
+all_models,208414,161a,161,SUPPORTS,Excuse My French is the debut album of an artist .,True,True
+all_models,2084140000002,161b,161,REFUTES,Excuse My French is the debut album of an artist .,True,True
+all_models,2084140000003,161c,161,REFUTES,Excuse My French is a TV series .,True,True
+all_models,2084140000004,161d,161,SUPPORTS,Excuse My French is a TV series .,True,True
+all_models,211286,162a,162,SUPPORTS,The Closer 's final season was its seventh season .,True,True
+all_models,2112860000002,162b,162,REFUTES,The Closer 's final season was its seventh season .,True,True
+all_models,2112860000003,162c,162,REFUTES,The Closer 's final season was its eighth season .,True,True
+all_models,2112860000004,162d,162,SUPPORTS,The Closer 's final season was its eighth season .,True,True
+all_models,215135,163a,163,REFUTES,Private Lives is a 1940 comedy in three acts by Noel Coward .,True,True
+all_models,2151350000002,163b,163,SUPPORTS,Private Lives is a 1940 comedy in three acts by Noel Coward .,True,True
+all_models,2151350000003,163c,163,SUPPORTS,Private Lives is a 1930 comedy in three acts by Noel Coward .,True,True
+all_models,2151350000004,163d,163,REFUTES,Private Lives is a 1930 comedy in three acts by Noel Coward .,True,True
+all_models,215224,164a,164,REFUTES,Dreamer ( 2005 film ) is a Canadian sports film .,True,True
+all_models,2152240000002,164b,164,SUPPORTS,Dreamer ( 2005 film ) is a Canadian sports film .,False,False
+all_models,2152240000003,164c,164,SUPPORTS,Dreamer ( 2005 film ) is a American sports film .,True,True
+all_models,2152240000004,164d,164,REFUTES,Dreamer ( 2005 film ) is a American sports film .,True,True
+all_models,215477,165a,165,REFUTES,"Weekly Idol has one host , Mickey Rourke .",True,True
+all_models,2154770000002,165b,165,SUPPORTS,"Weekly Idol has one host , Mickey Rourke .",False,False
+all_models,2154770000003,165c,165,SUPPORTS,Weekly Idol had Jeong Hyeong-don as a host .,True,True
+all_models,2154770000004,165d,165,REFUTES,Weekly Idol had Jeong Hyeong-don as a host .,True,True
+all_models,216387,166a,166,SUPPORTS,Homer Hickman wrote some historical fiction novels .,True,True
+all_models,2163870000002,166b,166,REFUTES,Homer Hickman wrote some historical fiction novels .,True,True
+all_models,2163870000003,166c,166,REFUTES,Homer Hickman did not write any historical fiction novels .,True,True
+all_models,2163870000004,166d,166,SUPPORTS,Homer Hickman did not write any historical fiction novels .,False,False
+all_models,218252,167a,167,REFUTES,Libya is a country in Europe .,True,True
+all_models,2182520000002,167b,167,SUPPORTS,Libya is a country in Europe .,False,False
+all_models,2182520000003,167c,167,SUPPORTS,Libya is a country in Africa .,True,True
+all_models,2182520000004,167d,167,REFUTES,Libya is a country in Africa .,True,True
+all_models,219028,168a,168,REFUTES,Savages was exclusively a German film .,True,True
+all_models,2190280000002,168b,168,SUPPORTS,Savages was exclusively a German film .,False,False
+all_models,2190280000003,168c,168,SUPPORTS,Savages was exclusively an American film .,False,False
+all_models,2190280000004,168d,168,REFUTES,Savages was exclusively an American film .,True,True
+all_models,219126,169a,169,SUPPORTS,"Valencia has about 800,000 inhabitants , making it the third largest city in Spain .",True,True
+all_models,2191260000002,169b,169,REFUTES,"Valencia has about 800,000 inhabitants , making it the third largest city in Spain .",True,True
+all_models,2191260000003,169c,169,REFUTES,"Valencia has about 10,000 inhabitants , making it the third smallest city in Spain .",True,True
+all_models,2191260000004,169d,169,SUPPORTS,"Valencia has about 10,000 inhabitants , making it the third smallest city in Spain .",True,True
+all_models,219132,170a,170,REFUTES,Valencia is in America .,True,True
+all_models,2191320000002,170b,170,SUPPORTS,Valencia is in America .,False,False
+all_models,2191320000003,170c,170,SUPPORTS,Valencia is in Spain .,True,True
+all_models,2191320000004,170d,170,REFUTES,Valencia is in Spain .,True,True
+all_models,221085,171a,171,SUPPORTS,A & E is a cable and satellite television network .,True,True
+all_models,2210850000002,171b,171,REFUTES,A & E is a cable and satellite television network .,True,True
+all_models,2210850000003,171c,171,REFUTES,A & E is a porn website .,True,True
+all_models,2210850000004,171d,171,SUPPORTS,A & E is a porn website .,False,False
+all_models,222026,172a,172,REFUTES,Brubaker is a solely Australian film .,True,True
+all_models,2220260000002,172b,172,SUPPORTS,Brubaker is a solely Australian film .,False,False
+all_models,2220260000003,172c,172,SUPPORTS,Brubaker is an American film .,True,True
+all_models,2220260000004,172d,172,REFUTES,Brubaker is an American film .,True,True
+all_models,225239,173a,173,REFUTES,Danielle Cormack was born in May .,True,True
+all_models,2252390000002,173b,173,SUPPORTS,Danielle Cormack was born in May .,True,True
+all_models,2252390000003,173c,173,SUPPORTS,Danielle Cormack was born in December .,True,True
+all_models,2252390000004,173d,173,REFUTES,Danielle Cormack was born in December .,True,True
+all_models,226146,174a,174,REFUTES,Richard Dawkins has yet to appear on the internet .,True,True
+all_models,2261460000002,174b,174,SUPPORTS,Richard Dawkins has yet to appear on the internet .,False,False
+all_models,2261460000003,174c,174,SUPPORTS,Richard Dawkins appeared on the internet .,True,True
+all_models,2261460000004,174d,174,REFUTES,Richard Dawkins appeared on the internet .,True,True
+all_models,226877,175a,175,SUPPORTS,Jenna Jameson worked as a glamor model and a stripper .,True,True
+all_models,2268770000002,175b,175,REFUTES,Jenna Jameson worked as a glamor model and a stripper .,True,True
+all_models,2268770000003,175c,175,REFUTES,Jenna Jameson was a politician .,True,True
+all_models,2268770000004,175d,175,SUPPORTS,Jenna Jameson was a politician .,False,False
+all_models,227080,176a,176,SUPPORTS,Roar ( song ) is on the 2013 Katy Perry album Prism .,True,True
+all_models,2270800000002,176b,176,REFUTES,Roar ( song ) is on the 2013 Katy Perry album Prism .,True,True
+all_models,2270800000003,176c,176,REFUTES,Roar ( song ) is on the 2013 Lady Gaga album Prism .,True,True
+all_models,2270800000004,176d,176,SUPPORTS,Roar ( song ) is on the 2013 Lady Gaga album Prism .,True,True
+all_models,227369,177a,177,SUPPORTS,The Food Network is a channel that ran Giada at Home .,True,True
+all_models,2273690000002,177b,177,REFUTES,The Food Network is a channel that ran Giada at Home .,True,True
+all_models,2273690000003,177c,177,REFUTES,HBO is a channel that ran Giada at Home .,True,True
+all_models,2273690000004,177d,177,SUPPORTS,HBO is a channel that ran Giada at Home .,False,False
+original_local_models,97,001a,001,SUPPORTS,Craig David is a pop music performer .,True,True
+original_local_models,970000002,001b,001,REFUTES,Craig David is a pop music performer .,True,True
+original_local_models,970000003,001c,001,REFUTES,Craig David is a country music performer .,True,True
+original_local_models,970000004,001d,001,SUPPORTS,Craig David is a country music performer .,False,False
+original_local_models,2948,002a,002,REFUTES,The Mod Squad is an American movie .,True,True
+original_local_models,29480000002,002b,002,SUPPORTS,The Mod Squad is an American movie .,True,True
+original_local_models,29480000003,002c,002,SUPPORTS,The Mod Squad is an American series .,True,True
+original_local_models,29480000004,002d,002,REFUTES,The Mod Squad is an American series .,True,True
+original_local_models,3583,003a,003,SUPPORTS,Robert Palmer ( writer ) has written for the New York Times .,True,True
+original_local_models,35830000002,003b,003,REFUTES,Robert Palmer ( writer ) has written for the New York Times .,True,True
+original_local_models,35830000003,003c,003,REFUTES,Robert Palmer ( writer ) has written for the Washington Post .,True,True
+original_local_models,35830000004,003d,003,SUPPORTS,Robert Palmer ( writer ) has written for the Washington Post .,True,True
+original_local_models,6113,004a,004,SUPPORTS,Richard Alf was one of the founders of San Diego Comic-Con .,True,True
+original_local_models,61130000002,004b,004,REFUTES,Richard Alf was one of the founders of San Diego Comic-Con .,True,True
+original_local_models,61130000003,004c,004,REFUTES,Adam Yala was one of the founders of San Diego Comic-Con .,True,True
+original_local_models,61130000004,004d,004,SUPPORTS,Adam Yala was one of the founders of San Diego Comic-Con .,True,True
+original_local_models,10328,005a,005,REFUTES,"Sidse Babett Knudsen graduated on November 22nd , 1968 .",False,False
+original_local_models,103280000002,005b,005,SUPPORTS,"Sidse Babett Knudsen graduated on November 22nd , 1968 .",True,True
+original_local_models,103280000003,005c,005,SUPPORTS,"Sidse Babett Knudsen was born on November 22nd , 1968 .",True,True
+original_local_models,103280000004,005d,005,REFUTES,"Sidse Babett Knudsen was born on November 22nd , 1968 .",True,True
+original_local_models,11497,006a,006,SUPPORTS,Ashton Kutcher was in two films in 2005 .,True,True
+original_local_models,114970000002,006b,006,REFUTES,Ashton Kutcher was in two films in 2005 .,False,False
+original_local_models,114970000003,006c,006,REFUTES,Ashton Kutcher was in three films in 2005 .,True,True
+original_local_models,114970000004,006d,006,SUPPORTS,Ashton Kutcher was in three films in 2005 .,True,True
+original_local_models,12454,007a,007,REFUTES,Tangled is a silent film .,True,True
+original_local_models,124540000002,007b,007,SUPPORTS,Tangled is a silent film .,False,False
+original_local_models,124540000003,007c,007,SUPPORTS,Tangled is not a silent film .,True,True
+original_local_models,124540000004,007d,007,REFUTES,Tangled is not a silent film .,True,True
+original_local_models,14019,008a,008,REFUTES,Tatum O'Neal is childless .,True,True
+original_local_models,140190000002,008b,008,SUPPORTS,Tatum O'Neal is childless .,True,True
+original_local_models,140190000003,008c,008,SUPPORTS,Tatum O'Neal had children .,True,True
+original_local_models,140190000004,008d,008,REFUTES,Tatum O'Neal had children .,True,True
+original_local_models,14767,009a,009,REFUTES,Colin Kaepernick was backup to the president .,True,True
+original_local_models,147670000002,009b,009,SUPPORTS,Colin Kaepernick was backup to the president .,False,False
+original_local_models,147670000003,009c,009,SUPPORTS,Colin Kaepernick was backup to Alex Smith .,True,True
+original_local_models,147670000004,009d,009,REFUTES,Colin Kaepernick was backup to Alex Smith .,True,True
+original_local_models,15307,010a,010,SUPPORTS,Tim Roth is an English actor .,True,True
+original_local_models,153070000002,010b,010,REFUTES,Tim Roth is an English actor .,True,True
+original_local_models,153070000003,010c,010,REFUTES,Tim Roth is an American actor .,True,True
+original_local_models,153070000004,010d,010,SUPPORTS,Tim Roth is an American actor .,True,True
+original_local_models,18565,011a,011,SUPPORTS,The album One of the Boys contains I Kissed a Girl .,True,True
+original_local_models,185650000002,011b,011,REFUTES,The album One of the Boys contains I Kissed a Girl .,False,False
+original_local_models,185650000003,011c,011,REFUTES,The album One of the Girls contains I Kissed a Girl .,False,False
+original_local_models,185650000004,011d,011,SUPPORTS,The album One of the Girls contains I Kissed a Girl .,True,True
+original_local_models,20605,012a,012,REFUTES,Bad Romance was one of the worst-selling singles of all time .,True,True
+original_local_models,206050000002,012b,012,SUPPORTS,Bad Romance was one of the worst-selling singles of all time .,False,False
+original_local_models,206050000003,012c,012,SUPPORTS,Bad Romance was one of the bestt-selling singles of all time .,True,True
+original_local_models,206050000004,012d,012,REFUTES,Bad Romance was one of the bestt-selling singles of all time .,True,True
+original_local_models,21558,013a,013,SUPPORTS,Policies implemented by Margaret Thatcher came to be known as Thatcherism .,True,True
+original_local_models,215580000002,013b,013,REFUTES,Policies implemented by Margaret Thatcher came to be known as Thatcherism .,False,False
+original_local_models,215580000003,013c,013,REFUTES,Speeches by Margaret Thatcher came to be known as Thatcherism .,False,False
+original_local_models,215580000004,013d,013,SUPPORTS,Speeches by Margaret Thatcher came to be known as Thatcherism .,True,True
+original_local_models,21775,014a,014,REFUTES,Vedam was written and directed by Christopher Nolan .,True,True
+original_local_models,217750000002,014b,014,SUPPORTS,Vedam was written and directed by Christopher Nolan .,False,False
+original_local_models,217750000003,014c,014,SUPPORTS,Vedam was written and directed by Radhakrishna Jagarlamudi .,True,True
+original_local_models,217750000004,014d,014,REFUTES,Vedam was written and directed by Radhakrishna Jagarlamudi .,True,True
+original_local_models,23628,015a,015,SUPPORTS,NRG Recording Studios is a recording space .,True,True
+original_local_models,236280000002,015b,015,REFUTES,NRG Recording Studios is a recording space .,True,True
+original_local_models,236280000003,015c,015,REFUTES,NRG Recording Studios is a dance club .,True,True
+original_local_models,236280000004,015d,015,SUPPORTS,NRG Recording Studios is a dance club .,False,False
+original_local_models,24480,016a,016,SUPPORTS,David Spade starred in Joe Dirt 2 : Beautiful Loser .,True,True
+original_local_models,244800000002,016b,016,REFUTES,David Spade starred in Joe Dirt 2 : Beautiful Loser .,False,False
+original_local_models,244800000003,016c,016,REFUTES,David Spade directed in Joe Dirt 2 : Beautiful Loser .,False,False
+original_local_models,244800000004,016d,016,SUPPORTS,David Spade directed in Joe Dirt 2 : Beautiful Loser .,True,True
+original_local_models,24684,017a,017,SUPPORTS,Arizona is a state in the United States .,True,True
+original_local_models,246840000002,017b,017,REFUTES,Arizona is a state in the United States .,True,True
+original_local_models,246840000003,017c,017,REFUTES,Arizona is a state in Mexico .,True,True
+original_local_models,246840000004,017d,017,SUPPORTS,Arizona is a state in Mexico .,False,False
+original_local_models,26300,018a,018,SUPPORTS,Heavy Metal music was developed in the early 1970 's .,True,True
+original_local_models,263000000002,018b,018,REFUTES,Heavy Metal music was developed in the early 1970 's .,True,True
+original_local_models,263000000003,018c,018,REFUTES,Heavy Metal music was developed in the early 1990 's .,True,True
+original_local_models,263000000004,018d,018,SUPPORTS,Heavy Metal music was developed in the early 1990 's .,True,True
+original_local_models,26839,019a,019,REFUTES,Hedda Gabler 's world premiere took place at the Battle of Hastings .,True,True
+original_local_models,268390000002,019b,019,SUPPORTS,Hedda Gabler 's world premiere took place at the Battle of Hastings .,False,False
+original_local_models,268390000003,019c,019,SUPPORTS,Hedda Gabler 's world premiere took place at the Residenztheater in Munich .,True,True
+original_local_models,268390000004,019d,019,REFUTES,Hedda Gabler 's world premiere took place at the Residenztheater in Munich .,True,True
+original_local_models,27497,020a,020,REFUTES,Peking University is in Thailand .,True,True
+original_local_models,274970000002,020b,020,SUPPORTS,Peking University is in Thailand .,False,False
+original_local_models,274970000003,020c,020,SUPPORTS,Peking University is in China .,True,True
+original_local_models,274970000004,020d,020,REFUTES,Peking University is in China .,True,True
+original_local_models,27869,021a,021,REFUTES,Mount Rushmore was created by sculptor Tom Brady .,True,True
+original_local_models,278690000002,021b,021,SUPPORTS,Mount Rushmore was created by sculptor Tom Brady .,False,False
+original_local_models,278690000003,021c,021,SUPPORTS,Mount Rushmore was created by sculptor Gutzon Borglum .,True,True
+original_local_models,278690000004,021d,021,REFUTES,Mount Rushmore was created by sculptor Gutzon Borglum .,True,True
+original_local_models,29857,022a,022,REFUTES,Mary of Teck 's son never abdicated the throne .,True,True
+original_local_models,298570000002,022b,022,SUPPORTS,Mary of Teck 's son never abdicated the throne .,False,False
+original_local_models,298570000003,022c,022,SUPPORTS,Mary of Teck 's son abdicated the throne .,True,True
+original_local_models,298570000004,022d,022,REFUTES,Mary of Teck 's son abdicated the throne .,True,True
+original_local_models,35309,023a,023,REFUTES,Wolfgang Mozart had only daughters .,True,True
+original_local_models,353090000002,023b,023,SUPPORTS,Wolfgang Mozart had only daughters .,False,False
+original_local_models,353090000003,023c,023,SUPPORTS,Wolfgang Mozart had two sons .,True,True
+original_local_models,353090000004,023d,023,REFUTES,Wolfgang Mozart had two sons .,True,True
+original_local_models,36092,024a,024,SUPPORTS,Liverpool is in Europe .,True,True
+original_local_models,360920000002,024b,024,REFUTES,Liverpool is in Europe .,True,True
+original_local_models,360920000003,024c,024,REFUTES,Liverpool is in Australia .,True,True
+original_local_models,360920000004,024d,024,SUPPORTS,Liverpool is in Australia .,False,False
+original_local_models,36886,025a,025,REFUTES,Carlos Santana was born in the fifties .,False,False
+original_local_models,368860000002,025b,025,SUPPORTS,Carlos Santana was born in the fifties .,True,True
+original_local_models,368860000003,025c,025,SUPPORTS,Carlos Santana was born in the forties .,True,True
+original_local_models,368860000004,025d,025,REFUTES,Carlos Santana was born in the forties .,True,True
+original_local_models,39606,026a,026,REFUTES,Neil Diamond is not a musician .,True,True
+original_local_models,396060000002,026b,026,SUPPORTS,Neil Diamond is not a musician .,False,False
+original_local_models,396060000003,026c,026,SUPPORTS,Neil Diamond is not a football player .,True,True
+original_local_models,396060000004,026d,026,REFUTES,Neil Diamond is not a football player .,True,True
+original_local_models,41810,027a,027,REFUTES,"Prescott , Arizona is a county .",True,True
+original_local_models,418100000002,027b,027,SUPPORTS,"Prescott , Arizona is a county .",False,False
+original_local_models,418100000003,027c,027,SUPPORTS,"Prescott , Arizona is a city .",True,True
+original_local_models,418100000004,027d,027,REFUTES,"Prescott , Arizona is a city .",True,True
+original_local_models,41850,028a,028,SUPPORTS,Bret Easton Ellis wrote the screenplay for The Canyons .,True,True
+original_local_models,418500000002,028b,028,REFUTES,Bret Easton Ellis wrote the screenplay for The Canyons .,True,True
+original_local_models,418500000003,028c,028,REFUTES,Robin Singh wrote the screenplay for The Canyons .,True,True
+original_local_models,418500000004,028d,028,SUPPORTS,Robin Singh wrote the screenplay for The Canyons .,True,True
+original_local_models,42188,029a,029,SUPPORTS,The horse has changed in size as it evolved .,True,True
+original_local_models,421880000002,029b,029,REFUTES,The horse has changed in size as it evolved .,False,False
+original_local_models,421880000003,029c,029,REFUTES,The horse has not changed in size as it evolved .,True,True
+original_local_models,421880000004,029d,029,SUPPORTS,The horse has not changed in size as it evolved .,False,False
+original_local_models,43776,030a,030,REFUTES,Colin Kaepernick is a poker player .,True,True
+original_local_models,437760000002,030b,030,SUPPORTS,Colin Kaepernick is a poker player .,True,True
+original_local_models,437760000003,030c,030,SUPPORTS,Colin Kaepernick is a football player .,True,True
+original_local_models,437760000004,030d,030,REFUTES,Colin Kaepernick is a football player .,True,True
+original_local_models,46464,031a,031,REFUTES,Carlos Santana is a US president .,True,True
+original_local_models,464640000002,031b,031,SUPPORTS,Carlos Santana is a US president .,False,False
+original_local_models,464640000003,031c,031,SUPPORTS,Carlos Santana is a musician .,True,True
+original_local_models,464640000004,031d,031,REFUTES,Carlos Santana is a musician .,True,True
+original_local_models,46513,032a,032,SUPPORTS,The filming of Dilwale Dulhania Le Jayenge finished in August 1995 .,True,True
+original_local_models,465130000002,032b,032,REFUTES,The filming of Dilwale Dulhania Le Jayenge finished in August 1995 .,True,True
+original_local_models,465130000003,032c,032,REFUTES,The filming of Dilwale Dulhania Le Jayenge finished in August 1895 .,True,True
+original_local_models,465130000004,032d,032,SUPPORTS,The filming of Dilwale Dulhania Le Jayenge finished in August 1895 .,False,False
+original_local_models,47911,033a,033,SUPPORTS,The Mod Squad is a series that fits into the genre of crime drama .,True,True
+original_local_models,479110000002,033b,033,REFUTES,The Mod Squad is a series that fits into the genre of crime drama .,False,False
+original_local_models,479110000003,033c,033,REFUTES,The Mod Squad is a series that fits into the genre of pornography .,True,True
+original_local_models,479110000004,033d,033,SUPPORTS,The Mod Squad is a series that fits into the genre of pornography .,False,False
+original_local_models,48707,034a,034,REFUTES,Ekta Kapoor only worked in film .,False,False
+original_local_models,487070000002,034b,034,SUPPORTS,Ekta Kapoor only worked in film .,False,False
+original_local_models,487070000003,034c,034,SUPPORTS,Ekta Kapoor did not work in film .,False,False
+original_local_models,487070000004,034d,034,REFUTES,Ekta Kapoor did not work in film .,True,True
+original_local_models,50810,035a,035,REFUTES,Pharrell Williams is not a musician .,False,False
+original_local_models,508100000002,035b,035,SUPPORTS,Pharrell Williams is not a musician .,False,False
+original_local_models,508100000003,035c,035,SUPPORTS,Pharrell Williams is a musician .,True,True
+original_local_models,508100000004,035d,035,REFUTES,Pharrell Williams is a musician .,False,False
+original_local_models,52186,036a,036,SUPPORTS,"On February 2 , 2013 , Chris Kyle died .",True,True
+original_local_models,521860000002,036b,036,REFUTES,"On February 2 , 2013 , Chris Kyle died .",True,True
+original_local_models,521860000003,036c,036,REFUTES,"On February 2 , 2014 , Chris Kyle died .",True,True
+original_local_models,521860000004,036d,036,SUPPORTS,"On February 2 , 2014 , Chris Kyle died .",True,True
+original_local_models,54168,037a,037,REFUTES,Murda Beatz 's real name is Marshall Mathers .,True,True
+original_local_models,541680000002,037b,037,SUPPORTS,Murda Beatz 's real name is Marshall Mathers .,False,False
+original_local_models,541680000003,037c,037,SUPPORTS,Murda Beatz 's real name is Murda Beatz .,False,False
+original_local_models,541680000004,037d,037,REFUTES,Murda Beatz 's real name is Murda Beatz .,True,True
+original_local_models,54253,038a,038,REFUTES,Daggering is associated with the genre of death metal .,True,True
+original_local_models,542530000002,038b,038,SUPPORTS,Daggering is associated with the genre of death metal .,True,True
+original_local_models,542530000003,038c,038,SUPPORTS,Daggering is associated with the genre of dancehall music .,True,True
+original_local_models,542530000004,038d,038,REFUTES,Daggering is associated with the genre of dancehall music .,True,True
+original_local_models,55294,039a,039,SUPPORTS,House is an American medical drama .,True,True
+original_local_models,552940000002,039b,039,REFUTES,House is an American medical drama .,True,True
+original_local_models,552940000003,039c,039,REFUTES,House is an American horror drama .,False,False
+original_local_models,552940000004,039d,039,SUPPORTS,House is an American horror drama .,True,True
+original_local_models,60685,040a,040,SUPPORTS,Trollhunters was produced by an animation company .,True,True
+original_local_models,606850000002,040b,040,REFUTES,Trollhunters was produced by an animation company .,True,True
+original_local_models,606850000003,040c,040,REFUTES,Trollhunters was produced by an pornographic company .,True,True
+original_local_models,606850000004,040d,040,SUPPORTS,Trollhunters was produced by an pornographic company .,False,False
+original_local_models,68032,041a,041,SUPPORTS,Hot Right Now is from Nextlevelism .,True,True
+original_local_models,680320000002,041b,041,REFUTES,Hot Right Now is from Nextlevelism .,True,True
+original_local_models,680320000003,041c,041,REFUTES,Hot Right Now is from Kryptonite .,True,True
+original_local_models,680320000004,041d,041,SUPPORTS,Hot Right Now is from Kryptonite .,True,True
+original_local_models,68232,042a,042,REFUTES,I Kissed a Girl was recorded by cats .,True,True
+original_local_models,682320000002,042b,042,SUPPORTS,I Kissed a Girl was recorded by cats .,True,True
+original_local_models,682320000003,042c,042,SUPPORTS,I Kissed a Girl was recorded by Katy Perry .,True,True
+original_local_models,682320000004,042d,042,REFUTES,I Kissed a Girl was recorded by Katy Perry .,True,True
+original_local_models,68443,043a,043,REFUTES,Pharrell Williams does not play drums .,False,False
+original_local_models,684430000002,043b,043,SUPPORTS,Pharrell Williams does not play drums .,False,False
+original_local_models,684430000003,043c,043,SUPPORTS,Pharrell Williams plays drums .,True,True
+original_local_models,684430000004,043d,043,REFUTES,Pharrell Williams plays drums .,True,True
+original_local_models,70812,044a,044,REFUTES,The Rock plays Riddick .,True,True
+original_local_models,708120000002,044b,044,SUPPORTS,The Rock plays Riddick .,True,True
+original_local_models,708120000003,044c,044,SUPPORTS,Actor Vin Diesel plays Riddick .,True,True
+original_local_models,708120000004,044d,044,REFUTES,Actor Vin Diesel plays Riddick .,True,True
+original_local_models,71376,045a,045,REFUTES,Annette Badland was unable to appear in Wizards vs Aliens .,True,True
+original_local_models,713760000002,045b,045,SUPPORTS,Annette Badland was unable to appear in Wizards vs Aliens .,True,True
+original_local_models,713760000003,045c,045,SUPPORTS,Annette Badland appeared in Wizards vs Aliens .,True,True
+original_local_models,713760000004,045d,045,REFUTES,Annette Badland appeared in Wizards vs Aliens .,True,True
+original_local_models,71511,046a,046,REFUTES,T2 Trainspotting is a 2017 British comedy drama book .,True,True
+original_local_models,715110000002,046b,046,SUPPORTS,T2 Trainspotting is a 2017 British comedy drama book .,True,True
+original_local_models,715110000003,046c,046,SUPPORTS,T2 Trainspotting is a 2017 British comedy drama film .,True,True
+original_local_models,715110000004,046d,046,REFUTES,T2 Trainspotting is a 2017 British comedy drama film .,False,False
+original_local_models,72436,047a,047,REFUTES,The Bahamas is a city .,True,True
+original_local_models,724360000002,047b,047,SUPPORTS,The Bahamas is a city .,False,False
+original_local_models,724360000003,047c,047,SUPPORTS,The Bahamas is a state .,True,True
+original_local_models,724360000004,047d,047,REFUTES,The Bahamas is a state .,True,True
+original_local_models,73351,048a,048,REFUTES,SpongeBob SquarePants is not an American series .,False,False
+original_local_models,733510000002,048b,048,SUPPORTS,SpongeBob SquarePants is not an American series .,False,False
+original_local_models,733510000003,048c,048,SUPPORTS,SpongeBob SquarePants is an American series .,True,True
+original_local_models,733510000004,048d,048,REFUTES,SpongeBob SquarePants is an American series .,True,True
+original_local_models,73471,049a,049,REFUTES,Uranium-235 was discovered by a person who was born in August of 2014 .,True,True
+original_local_models,734710000002,049b,049,SUPPORTS,Uranium-235 was discovered by a person who was born in August of 2014 .,False,False
+original_local_models,734710000003,049c,049,SUPPORTS,Uranium-235 was discovered in 1935 .,True,True
+original_local_models,734710000004,049d,049,REFUTES,Uranium-235 was discovered in 1935 .,True,True
+original_local_models,75599,050a,050,SUPPORTS,This is an ethnic group called Lithuanians .,True,True
+original_local_models,755990000002,050b,050,REFUTES,This is an ethnic group called Lithuanians .,False,False
+original_local_models,755990000003,050c,050,REFUTES,This is a non racial group called Lithuanians .,False,False
+original_local_models,755990000004,050d,050,SUPPORTS,This is a non racial group called Lithuanians .,True,True
+original_local_models,76265,051a,051,REFUTES,Efraim Diveroli had no relation to the arms industry .,True,True
+original_local_models,762650000002,051b,051,SUPPORTS,Efraim Diveroli had no relation to the arms industry .,False,False
+original_local_models,762650000003,051c,051,SUPPORTS,Efraim Diveroli was part of the arms industry .,True,True
+original_local_models,762650000004,051d,051,REFUTES,Efraim Diveroli was part of the arms industry .,True,True
+original_local_models,76611,052a,052,REFUTES,Harvard University is barely residential .,True,True
+original_local_models,766110000002,052b,052,SUPPORTS,Harvard University is barely residential .,True,True
+original_local_models,766110000003,052c,052,SUPPORTS,Harvard University is highly residential .,True,True
+original_local_models,766110000004,052d,052,REFUTES,Harvard University is highly residential .,True,True
+original_local_models,78305,053a,053,REFUTES,Lost is a political party .,True,True
+original_local_models,783050000002,053b,053,SUPPORTS,Lost is a political party .,False,False
+original_local_models,783050000003,053c,053,SUPPORTS,Lost is a television series .,True,True
+original_local_models,783050000004,053d,053,REFUTES,Lost is a television series .,True,True
+original_local_models,78846,054a,054,REFUTES,Daggering originated in Australia .,True,True
+original_local_models,788460000002,054b,054,SUPPORTS,Daggering originated in Australia .,True,True
+original_local_models,788460000003,054c,054,SUPPORTS,Daggering originated in Jamaica .,True,True
+original_local_models,788460000004,054d,054,REFUTES,Daggering originated in Jamaica .,True,True
+original_local_models,78997,055a,055,REFUTES,Veeru Devgan only works in Hollywood .,True,True
+original_local_models,789970000002,055b,055,SUPPORTS,Veeru Devgan only works in Hollywood .,False,False
+original_local_models,789970000003,055c,055,SUPPORTS,Veeru Devgan only works in Bollywood .,False,False
+original_local_models,789970000004,055d,055,REFUTES,Veeru Devgan only works in Bollywood .,True,True
+original_local_models,79538,056a,056,REFUTES,Sheryl Lee has yet to appear in a film as of 2016 .,True,True
+original_local_models,795380000002,056b,056,SUPPORTS,Sheryl Lee has yet to appear in a film as of 2016 .,False,False
+original_local_models,795380000003,056c,056,SUPPORTS,Sheryl Lee appeared in a film .,True,True
+original_local_models,795380000004,056d,056,REFUTES,Sheryl Lee appeared in a film .,True,True
+original_local_models,79771,057a,057,SUPPORTS,"In inherited cases , amyotrophic lateral sclerosis starts earlier .",True,True
+original_local_models,797710000002,057b,057,REFUTES,"In inherited cases , amyotrophic lateral sclerosis starts earlier .",True,True
+original_local_models,797710000003,057c,057,REFUTES,"In inherited cases , amyotrophic lateral sclerosis starts later .",False,False
+original_local_models,797710000004,057d,057,SUPPORTS,"In inherited cases , amyotrophic lateral sclerosis starts later .",True,True
+original_local_models,80205,058a,058,REFUTES,Reign Over Me was released in 2017 .,True,True
+original_local_models,802050000002,058b,058,SUPPORTS,Reign Over Me was released in 2017 .,True,True
+original_local_models,802050000003,058c,058,SUPPORTS,Reign Over Me was released in 2007 .,True,True
+original_local_models,802050000004,058d,058,REFUTES,Reign Over Me was released in 2007 .,True,True
+original_local_models,84187,059a,059,SUPPORTS,Sean Penn was in a movie .,True,True
+original_local_models,841870000002,059b,059,REFUTES,Sean Penn was in a movie .,True,True
+original_local_models,841870000003,059c,059,REFUTES,Sean Penn was a politician .,True,True
+original_local_models,841870000004,059d,059,SUPPORTS,Sean Penn was a politician .,False,False
+original_local_models,86242,060a,060,REFUTES,Meteora is not a rock album .,False,False
+original_local_models,862420000002,060b,060,SUPPORTS,Meteora is not a rock album .,False,False
+original_local_models,862420000003,060c,060,SUPPORTS,Meteora is a rock album .,True,True
+original_local_models,862420000004,060d,060,REFUTES,Meteora is a rock album .,True,True
+original_local_models,88040,061a,061,REFUTES,Due Date was shot in Montana .,True,True
+original_local_models,880400000002,061b,061,SUPPORTS,Due Date was shot in Montana .,True,True
+original_local_models,880400000003,061c,061,SUPPORTS,Part of Due Date was shot in New Mexico .,False,False
+original_local_models,880400000004,061d,061,REFUTES,Part of Due Date was shot in New Mexico .,True,True
+original_local_models,93064,062a,062,SUPPORTS,Humphrey Bogart was ranked greatest male star of Classic American cinema .,True,True
+original_local_models,930640000002,062b,062,REFUTES,Humphrey Bogart was ranked greatest male star of Classic American cinema .,True,True
+original_local_models,930640000003,062c,062,REFUTES,Humphrey Bogart was ranked worst male star of Classic American cinema .,True,True
+original_local_models,930640000004,062d,062,SUPPORTS,Humphrey Bogart was ranked worst male star of Classic American cinema .,True,True
+original_local_models,93273,063a,063,SUPPORTS,Amy Adams has a voice role in Underdog .,True,True
+original_local_models,932730000002,063b,063,REFUTES,Amy Adams has a voice role in Underdog .,True,True
+original_local_models,932730000003,063c,063,REFUTES,Amy Adams did not have a role in Underdog .,False,False
+original_local_models,932730000004,063d,063,SUPPORTS,Amy Adams did not have a role in Underdog .,True,True
+original_local_models,93624,064a,064,SUPPORTS,"Lockhead Martin F-35 Lightning II first flew on December 15th , 2006 .",True,True
+original_local_models,936240000002,064b,064,REFUTES,"Lockhead Martin F-35 Lightning II first flew on December 15th , 2006 .",True,True
+original_local_models,936240000003,064c,064,REFUTES,"Lockhead Martin F-35 Lightning II first flew on July 15th , 2006 .",True,True
+original_local_models,936240000004,064d,064,SUPPORTS,"Lockhead Martin F-35 Lightning II first flew on July 15th , 2006 .",True,True
+original_local_models,94746,065a,065,SUPPORTS,Lemmy had a distinct gravelly voice that made him known .,True,True
+original_local_models,947460000002,065b,065,REFUTES,Lemmy had a distinct gravelly voice that made him known .,True,True
+original_local_models,947460000003,065c,065,REFUTES,Lemmy had a distinct hair cut that made him known .,True,True
+original_local_models,947460000004,065d,065,SUPPORTS,Lemmy had a distinct hair cut that made him known .,True,True
+original_local_models,95239,066a,066,REFUTES,The Gifted is a murderer .,True,True
+original_local_models,952390000002,066b,066,SUPPORTS,The Gifted is a murderer .,False,False
+original_local_models,952390000003,066c,066,SUPPORTS,The Gifted is a television series .,True,True
+original_local_models,952390000004,066d,066,REFUTES,The Gifted is a television series .,True,True
+original_local_models,97091,067a,067,SUPPORTS,Colombiana was produced by a man .,False,False
+original_local_models,970910000002,067b,067,REFUTES,Colombiana was produced by a man .,True,True
+original_local_models,970910000003,067c,067,REFUTES,Colombiana was produced by a woman .,True,True
+original_local_models,970910000004,067d,067,SUPPORTS,Colombiana was produced by a woman .,False,False
+original_local_models,100584,068a,068,REFUTES,Same Old Love is disassociated from Selena Gomez .,False,False
+original_local_models,1005840000002,068b,068,SUPPORTS,Same Old Love is disassociated from Selena Gomez .,False,False
+original_local_models,1005840000003,068c,068,SUPPORTS,Same Old Love is associated with Selena Gomez .,True,True
+original_local_models,1005840000004,068d,068,REFUTES,Same Old Love is associated with Selena Gomez .,True,True
+original_local_models,102793,069a,069,SUPPORTS,Henry II of France died in a tournament devoted to celebrating the Peace of Cateau-Cambrésis .,True,True
+original_local_models,1027930000002,069b,069,REFUTES,Henry II of France died in a tournament devoted to celebrating the Peace of Cateau-Cambrésis .,True,True
+original_local_models,1027930000003,069c,069,REFUTES,Henry II of France died from a horse kick in the garden .,True,True
+original_local_models,1027930000004,069d,069,SUPPORTS,Henry II of France died from a horse kick in the garden .,True,True
+original_local_models,102875,070a,070,REFUTES,Croatia has a king .,True,True
+original_local_models,1028750000002,070b,070,SUPPORTS,Croatia has a king .,False,False
+original_local_models,1028750000003,070c,070,SUPPORTS,Croatia does not have king .,False,False
+original_local_models,1028750000004,070d,070,REFUTES,Croatia does not have king .,True,True
+original_local_models,103375,071a,071,REFUTES,Java was formed by earthquakes .,True,True
+original_local_models,1033750000002,071b,071,SUPPORTS,Java was formed by earthquakes .,True,True
+original_local_models,1033750000003,071c,071,SUPPORTS,Java was formed by volcanic eruptions .,True,True
+original_local_models,1033750000004,071d,071,REFUTES,Java was formed by volcanic eruptions .,True,True
+original_local_models,105095,072a,072,SUPPORTS,Nicholas Brody is a character on Homeland .,True,True
+original_local_models,1050950000002,072b,072,REFUTES,Nicholas Brody is a character on Homeland .,True,True
+original_local_models,1050950000003,072c,072,REFUTES,Nicholas Brody is a character on Game of Thrones .,True,True
+original_local_models,1050950000004,072d,072,SUPPORTS,Nicholas Brody is a character on Game of Thrones .,True,True
+original_local_models,105419,073a,073,REFUTES,Youtube is not a website .,False,False
+original_local_models,1054190000002,073b,073,SUPPORTS,Youtube is not a website .,False,False
+original_local_models,1054190000003,073c,073,SUPPORTS,Youtube is a website .,True,True
+original_local_models,1054190000004,073d,073,REFUTES,Youtube is a website .,True,True
+original_local_models,106010,074a,074,SUPPORTS,Liverpool is a tourist destination because of The Beatles .,True,True
+original_local_models,1060100000002,074b,074,REFUTES,Liverpool is a tourist destination because of The Beatles .,True,True
+original_local_models,1060100000003,074c,074,REFUTES,Liverpool is not a tourist destination despite of The Beatles .,True,True
+original_local_models,1060100000004,074d,074,SUPPORTS,Liverpool is not a tourist destination despite of The Beatles .,False,False
+original_local_models,106627,075a,075,REFUTES,I Kissed a Girl is part of Katy Perry 's first studio album .,True,True
+original_local_models,1066270000002,075b,075,SUPPORTS,I Kissed a Girl is part of Katy Perry 's first studio album .,True,True
+original_local_models,1066270000003,075c,075,SUPPORTS,I Kissed a Girl is part of Katy Perry 's second studio album .,True,True
+original_local_models,1066270000004,075d,075,REFUTES,I Kissed a Girl is part of Katy Perry 's second studio album .,True,True
+original_local_models,107667,076a,076,SUPPORTS,Ingushetia was named after Chechen-Ingush ASSR split into two .,True,True
+original_local_models,1076670000002,076b,076,REFUTES,Ingushetia was named after Chechen-Ingush ASSR split into two .,True,True
+original_local_models,1076670000003,076c,076,REFUTES,Ingushetia was named before Chechen-Ingush ASSR split into two .,True,True
+original_local_models,1076670000004,076d,076,SUPPORTS,Ingushetia was named before Chechen-Ingush ASSR split into two .,True,True
+original_local_models,107786,077a,077,SUPPORTS,Ann Richards was professionally involved in politics .,True,True
+original_local_models,1077860000002,077b,077,REFUTES,Ann Richards was professionally involved in politics .,True,True
+original_local_models,1077860000003,077c,077,REFUTES,Ann Richards was professionally involved in acting .,True,True
+original_local_models,1077860000004,077d,077,SUPPORTS,Ann Richards was professionally involved in acting .,True,True
+original_local_models,108281,078a,078,REFUTES,Andrew Kevin Walker is only Chinese .,True,True
+original_local_models,1082810000002,078b,078,SUPPORTS,Andrew Kevin Walker is only Chinese .,False,False
+original_local_models,1082810000003,078c,078,SUPPORTS,Andrew Kevin Walker is only American .,True,True
+original_local_models,1082810000004,078d,078,REFUTES,Andrew Kevin Walker is only American .,True,True
+original_local_models,109128,079a,079,SUPPORTS,Dilwale Dulhania Le Jayenge began filming in September 1994 .,True,True
+original_local_models,1091280000002,079b,079,REFUTES,Dilwale Dulhania Le Jayenge began filming in September 1994 .,True,True
+original_local_models,1091280000003,079c,079,REFUTES,Dilwale Dulhania Le Jayenge began filming in January 1994 .,True,True
+original_local_models,1091280000004,079d,079,SUPPORTS,Dilwale Dulhania Le Jayenge began filming in January 1994 .,True,True
+original_local_models,109785,080a,080,SUPPORTS,The horse has increased in size as it evolved .,True,True
+original_local_models,1097850000002,080b,080,REFUTES,The horse has increased in size as it evolved .,False,False
+original_local_models,1097850000003,080c,080,REFUTES,The horse has maintained its size as it evolved .,True,True
+original_local_models,1097850000004,080d,080,SUPPORTS,The horse has maintained its size as it evolved .,True,True
+original_local_models,113333,081a,081,REFUTES,Margaret Thatcher was not the first woman to lead a major political party in the United Kingdom .,True,True
+original_local_models,1133330000002,081b,081,SUPPORTS,Margaret Thatcher was not the first woman to lead a major political party in the United Kingdom .,False,False
+original_local_models,1133330000003,081c,081,SUPPORTS,Margaret Thatcher was the first woman to lead a major political party in the United Kingdom .,True,True
+original_local_models,1133330000004,081d,081,REFUTES,Margaret Thatcher was the first woman to lead a major political party in the United Kingdom .,True,True
+original_local_models,114567,082a,082,REFUTES,Seohyun is a dog .,True,True
+original_local_models,1145670000002,082b,082,SUPPORTS,Seohyun is a dog .,False,False
+original_local_models,1145670000003,082c,082,SUPPORTS,Seohyun is a singer .,True,True
+original_local_models,1145670000004,082d,082,REFUTES,Seohyun is a singer .,True,True
+original_local_models,114897,083a,083,REFUTES,Penélope Cruz refused to model for L'Oréal .,True,True
+original_local_models,1148970000002,083b,083,SUPPORTS,Penélope Cruz refused to model for L'Oréal .,True,True
+original_local_models,1148970000003,083c,083,SUPPORTS,Penélope Cruz modelled for L'Oréal .,True,True
+original_local_models,1148970000004,083d,083,REFUTES,Penélope Cruz modelled for L'Oréal .,True,True
+original_local_models,116319,084a,084,REFUTES,Hush ( 2016 film ) was written by Trevor Macy .,False,False
+original_local_models,1163190000002,084b,084,SUPPORTS,Hush ( 2016 film ) was written by Trevor Macy .,True,True
+original_local_models,1163190000003,084c,084,SUPPORTS,Hush ( 2016 film ) was written by Kate Siegel .,True,True
+original_local_models,1163190000004,084d,084,REFUTES,Hush ( 2016 film ) was written by Kate Siegel .,False,False
+original_local_models,117065,085a,085,REFUTES,Renato Balestra was born outside of Trieste .,True,True
+original_local_models,1170650000002,085b,085,SUPPORTS,Renato Balestra was born outside of Trieste .,False,False
+original_local_models,1170650000003,085c,085,SUPPORTS,Renato Balestra was born in Trieste .,True,True
+original_local_models,1170650000004,085d,085,REFUTES,Renato Balestra was born in Trieste .,True,True
+original_local_models,119215,086a,086,REFUTES,Ashley Graham is a US senator .,True,True
+original_local_models,1192150000002,086b,086,SUPPORTS,Ashley Graham is a US senator .,False,False
+original_local_models,1192150000003,086c,086,SUPPORTS,Ashley Graham is an American model .,True,True
+original_local_models,1192150000004,086d,086,REFUTES,Ashley Graham is an American model .,True,True
+original_local_models,120210,087a,087,REFUTES,Yara Shahidi is a dog .,True,True
+original_local_models,1202100000002,087b,087,SUPPORTS,Yara Shahidi is a dog .,False,False
+original_local_models,1202100000003,087c,087,SUPPORTS,Yara Shahidi is an actress .,True,True
+original_local_models,1202100000004,087d,087,REFUTES,Yara Shahidi is an actress .,True,True
+original_local_models,120480,088a,088,SUPPORTS,Darwin is the location where production of Australia ( 2008 film ) took place .,False,False
+original_local_models,1204800000002,088b,088,REFUTES,Darwin is the location where production of Australia ( 2008 film ) took place .,True,True
+original_local_models,1204800000003,088c,088,REFUTES,Canberra is the location where production of Australia ( 2008 film ) took place .,True,True
+original_local_models,1204800000004,088d,088,SUPPORTS,Canberra is the location where production of Australia ( 2008 film ) took place .,False,False
+original_local_models,120817,089a,089,REFUTES,Fantastic Four ( 2005 film ) was released on August .,True,True
+original_local_models,1208170000002,089b,089,SUPPORTS,Fantastic Four ( 2005 film ) was released on August .,True,True
+original_local_models,1208170000003,089c,089,SUPPORTS,Fantastic Four ( 2005 film ) was released on July .,True,True
+original_local_models,1208170000004,089d,089,REFUTES,Fantastic Four ( 2005 film ) was released on July .,True,True
+original_local_models,121119,090a,090,REFUTES,The 14th Dalai Lama lives in Japan exclusively .,True,True
+original_local_models,1211190000002,090b,090,SUPPORTS,The 14th Dalai Lama lives in Japan exclusively .,False,False
+original_local_models,1211190000003,090c,090,SUPPORTS,The 14th Dalai Lama lives in India exclusively .,True,True
+original_local_models,1211190000004,090d,090,REFUTES,The 14th Dalai Lama lives in India exclusively .,True,True
+original_local_models,122457,091a,091,REFUTES,The Chrysler Building has yet to be surpassed in height .,True,True
+original_local_models,1224570000002,091b,091,SUPPORTS,The Chrysler Building has yet to be surpassed in height .,False,False
+original_local_models,1224570000003,091c,091,SUPPORTS,The Chrysler Building has been surpassed in height .,True,True
+original_local_models,1224570000004,091d,091,REFUTES,The Chrysler Building has been surpassed in height .,True,True
+original_local_models,122673,092a,092,SUPPORTS,Global warming threatens food security .,True,True
+original_local_models,1226730000002,092b,092,REFUTES,Global warming threatens food security .,True,True
+original_local_models,1226730000003,092c,092,REFUTES,Global warming increases food security .,True,True
+original_local_models,1226730000004,092d,092,SUPPORTS,Global warming increases food security .,False,False
+original_local_models,122828,093a,093,SUPPORTS,Tracey Edmonds produced Soul Food .,True,True
+original_local_models,1228280000002,093b,093,REFUTES,Tracey Edmonds produced Soul Food .,True,True
+original_local_models,1228280000003,093c,093,REFUTES,Peter Jackson produced Soul Food .,True,True
+original_local_models,1228280000004,093d,093,SUPPORTS,Peter Jackson produced Soul Food .,True,True
+original_local_models,125437,094a,094,REFUTES,Dakota Fanning is not a model .,False,False
+original_local_models,1254370000002,094b,094,SUPPORTS,Dakota Fanning is not a model .,True,True
+original_local_models,1254370000003,094c,094,SUPPORTS,Dakota Fanning is also a model .,True,True
+original_local_models,1254370000004,094d,094,REFUTES,Dakota Fanning is also a model .,True,True
+original_local_models,126878,095a,095,REFUTES,"Aleister Crowley was born on June 12 , 1875 .",True,True
+original_local_models,1268780000002,095b,095,SUPPORTS,"Aleister Crowley was born on June 12 , 1875 .",True,True
+original_local_models,1268780000003,095c,095,SUPPORTS,"Aleister Crowley was born on October 12 , 1875 .",True,True
+original_local_models,1268780000004,095d,095,REFUTES,"Aleister Crowley was born on October 12 , 1875 .",True,True
+original_local_models,126973,096a,096,REFUTES,The horse has not grown in size as it evolved .,True,True
+original_local_models,1269730000002,096b,096,SUPPORTS,The horse has not grown in size as it evolved .,True,True
+original_local_models,1269730000003,096c,096,SUPPORTS,The horse has grown in size as it evolved .,True,True
+original_local_models,1269730000004,096d,096,REFUTES,The horse has grown in size as it evolved .,True,True
+original_local_models,126982,097a,097,REFUTES,Ashley Graham was never on a magazine cover .,True,True
+original_local_models,1269820000002,097b,097,SUPPORTS,Ashley Graham was never on a magazine cover .,True,True
+original_local_models,1269820000003,097c,097,SUPPORTS,Ashley Graham was on a magazine cover .,True,True
+original_local_models,1269820000004,097d,097,REFUTES,Ashley Graham was on a magazine cover .,True,True
+original_local_models,127539,098a,098,SUPPORTS,Morse Code is communication .,True,True
+original_local_models,1275390000002,098b,098,REFUTES,Morse Code is communication .,True,True
+original_local_models,1275390000003,098c,098,REFUTES,Morse Code is a programming language .,True,True
+original_local_models,1275390000004,098d,098,SUPPORTS,Morse Code is a programming language .,False,False
+original_local_models,128123,099a,099,REFUTES,Mohra is a truck .,True,True
+original_local_models,1281230000002,099b,099,SUPPORTS,Mohra is a truck .,True,True
+original_local_models,1281230000003,099c,099,SUPPORTS,Mohra is an action movie .,True,True
+original_local_models,1281230000004,099d,099,REFUTES,Mohra is an action movie .,True,True
+original_local_models,128741,100a,100,REFUTES,Poldark airs on HBO .,True,True
+original_local_models,1287410000002,100b,100,SUPPORTS,Poldark airs on HBO .,True,True
+original_local_models,1287410000003,100c,100,SUPPORTS,Poldark airs on BBC .,True,True
+original_local_models,1287410000004,100d,100,REFUTES,Poldark airs on BBC .,True,True
+original_local_models,129752,101a,101,SUPPORTS,The human brain contains a hypothalamus .,True,True
+original_local_models,1297520000002,101b,101,REFUTES,The human brain contains a hypothalamus .,False,False
+original_local_models,1297520000003,101c,101,REFUTES,The human brain contains a heart .,True,True
+original_local_models,1297520000004,101d,101,SUPPORTS,The human brain contains a heart .,False,False
+original_local_models,131931,102a,102,SUPPORTS,Basildon is a place .,True,True
+original_local_models,1319310000002,102b,102,REFUTES,Basildon is a place .,True,True
+original_local_models,1319310000003,102c,102,REFUTES,Basildon is a song .,True,True
+original_local_models,1319310000004,102d,102,SUPPORTS,Basildon is a song .,True,True
+original_local_models,138501,103a,103,REFUTES,Marjorie Gross has yet to write for a television show .,True,True
+original_local_models,1385010000002,103b,103,SUPPORTS,Marjorie Gross has yet to write for a television show .,True,True
+original_local_models,1385010000003,103c,103,SUPPORTS,Marjorie Gross writes for a television show .,True,True
+original_local_models,1385010000004,103d,103,REFUTES,Marjorie Gross writes for a television show .,True,True
+original_local_models,139030,104a,104,SUPPORTS,Peking University was founded as the replacement of a vintage school .,True,True
+original_local_models,1390300000002,104b,104,REFUTES,Peking University was founded as the replacement of a vintage school .,True,True
+original_local_models,1390300000003,104c,104,REFUTES,Peking University was founded as the extenstion of an existing school .,True,True
+original_local_models,1390300000004,104d,104,SUPPORTS,Peking University was founded as the extenstion of an existing school .,True,True
+original_local_models,140589,105a,105,SUPPORTS,The CONCACAF Champions League is put together for football unions in Central America .,False,False
+original_local_models,1405890000002,105b,105,REFUTES,The CONCACAF Champions League is put together for football unions in Central America .,True,True
+original_local_models,1405890000003,105c,105,REFUTES,The CONCACAF Champions League is put together for basketball unions in Central America .,True,True
+original_local_models,1405890000004,105d,105,SUPPORTS,The CONCACAF Champions League is put together for basketball unions in Central America .,False,False
+original_local_models,140758,106a,106,SUPPORTS,"In 1986 , Tatum O'Neal got married .",True,True
+original_local_models,1407580000002,106b,106,REFUTES,"In 1986 , Tatum O'Neal got married .",True,True
+original_local_models,1407580000003,106c,106,REFUTES,"In 1986 , Tatum O'Neal died .",True,True
+original_local_models,1407580000004,106d,106,SUPPORTS,"In 1986 , Tatum O'Neal died .",True,True
+original_local_models,140764,107a,107,REFUTES,Janet Leigh was incapable of writing .,True,True
+original_local_models,1407640000002,107b,107,SUPPORTS,Janet Leigh was incapable of writing .,True,True
+original_local_models,1407640000003,107c,107,SUPPORTS,Janet Leigh was a writer .,True,True
+original_local_models,1407640000004,107d,107,REFUTES,Janet Leigh was a writer .,True,True
+original_local_models,142130,108a,108,SUPPORTS,Moonlight premiered at the Telluride Film Festival in 2016 .,True,True
+original_local_models,1421300000002,108b,108,REFUTES,Moonlight premiered at the Telluride Film Festival in 2016 .,True,True
+original_local_models,1421300000003,108c,108,REFUTES,Moonlight premiered at the Telluride Film Festival in 2014 .,True,True
+original_local_models,1421300000004,108d,108,SUPPORTS,Moonlight premiered at the Telluride Film Festival in 2014 .,True,True
+original_local_models,144509,109a,109,REFUTES,Project Y 's mission was to build a new world .,True,True
+original_local_models,1445090000002,109b,109,SUPPORTS,Project Y 's mission was to build a new world .,True,True
+original_local_models,1445090000003,109c,109,SUPPORTS,Project Y 's mission was to design the first atomic bomb .,True,True
+original_local_models,1445090000004,109d,109,REFUTES,Project Y 's mission was to design the first atomic bomb .,True,True
+original_local_models,144589,110a,110,REFUTES,The Daily Show is incapable of being comedy focused .,False,False
+original_local_models,1445890000002,110b,110,SUPPORTS,The Daily Show is incapable of being comedy focused .,False,False
+original_local_models,1445890000003,110c,110,SUPPORTS,The Daily Show is a comedy show .,True,True
+original_local_models,1445890000004,110d,110,REFUTES,The Daily Show is a comedy show .,True,True
+original_local_models,145512,111a,111,REFUTES,"Harold Macmillan was born on February 20 , 1894 .",True,True
+original_local_models,1455120000002,111b,111,SUPPORTS,"Harold Macmillan was born on February 20 , 1894 .",True,True
+original_local_models,1455120000003,111c,111,SUPPORTS,"Harold Macmillan was born on February 10 , 1894 .",True,True
+original_local_models,1455120000004,111d,111,REFUTES,"Harold Macmillan was born on February 10 , 1894 .",True,True
+original_local_models,145570,112a,112,REFUTES,The series finale of Make It or Break It ended in 2013 .,True,True
+original_local_models,1455700000002,112b,112,SUPPORTS,The series finale of Make It or Break It ended in 2013 .,True,True
+original_local_models,1455700000003,112c,112,SUPPORTS,The series finale of Make It or Break It ended in 2012 .,True,True
+original_local_models,1455700000004,112d,112,REFUTES,The series finale of Make It or Break It ended in 2012 .,True,True
+original_local_models,145624,113a,113,REFUTES,Gin does not derive its main flavour from juniper berries .,True,True
+original_local_models,1456240000002,113b,113,SUPPORTS,Gin does not derive its main flavour from juniper berries .,False,False
+original_local_models,1456240000003,113c,113,SUPPORTS,Gin derive its main flavour from juniper berries .,True,True
+original_local_models,1456240000004,113d,113,REFUTES,Gin derive its main flavour from juniper berries .,True,True
+original_local_models,145672,114a,114,REFUTES,Ingushetia was established in 1993 .,True,True
+original_local_models,1456720000002,114b,114,SUPPORTS,Ingushetia was established in 1993 .,True,True
+original_local_models,1456720000003,114c,114,SUPPORTS,Ingushetia was established in 1992 .,True,True
+original_local_models,1456720000004,114d,114,REFUTES,Ingushetia was established in 1992 .,True,True
+original_local_models,146679,115a,115,REFUTES,The Concert for Bangladesh generated lack of awareness and insignificant funds .,True,True
+original_local_models,1466790000002,115b,115,SUPPORTS,The Concert for Bangladesh generated lack of awareness and insignificant funds .,True,True
+original_local_models,1466790000003,115c,115,SUPPORTS,The Concert for Bangladesh generated awareness and significant funds .,True,True
+original_local_models,1466790000004,115d,115,REFUTES,The Concert for Bangladesh generated awareness and significant funds .,True,True
+original_local_models,148471,116a,116,REFUTES,Kendall Jenner is a driver .,True,True
+original_local_models,1484710000002,116b,116,SUPPORTS,Kendall Jenner is a driver .,True,True
+original_local_models,1484710000003,116c,116,SUPPORTS,Kendall Jenner is a fashion model .,True,True
+original_local_models,1484710000004,116d,116,REFUTES,Kendall Jenner is a fashion model .,True,True
+original_local_models,149502,117a,117,SUPPORTS,In 2004 Paramore formed .,True,True
+original_local_models,1495020000002,117b,117,REFUTES,In 2004 Paramore formed .,True,True
+original_local_models,1495020000003,117c,117,REFUTES,In 2004 Paramore collapsed .,True,True
+original_local_models,1495020000004,117d,117,SUPPORTS,In 2004 Paramore collapsed .,True,True
+original_local_models,151650,118a,118,REFUTES,Daag is a painting .,True,True
+original_local_models,1516500000002,118b,118,SUPPORTS,Daag is a painting .,True,True
+original_local_models,1516500000003,118c,118,SUPPORTS,Daag is a film .,True,True
+original_local_models,1516500000004,118d,118,REFUTES,Daag is a film .,True,True
+original_local_models,155321,119a,119,SUPPORTS,Sophia Bush acted in movies .,True,True
+original_local_models,1553210000002,119b,119,REFUTES,Sophia Bush acted in movies .,False,False
+original_local_models,1553210000003,119c,119,REFUTES,Sophia Bush is a singer .,True,True
+original_local_models,1553210000004,119d,119,SUPPORTS,Sophia Bush is a singer .,False,False
+original_local_models,156903,120a,120,SUPPORTS,The Faroe Islands are not currently part of the Hereditary Kingdom of Norway .,False,False
+original_local_models,1569030000002,120b,120,REFUTES,The Faroe Islands are not currently part of the Hereditary Kingdom of Norway .,True,True
+original_local_models,1569030000003,120c,120,REFUTES,The Faroe Islands are currently part of the Hereditary Kingdom of Norway .,True,True
+original_local_models,1569030000004,120d,120,SUPPORTS,The Faroe Islands are currently part of the Hereditary Kingdom of Norway .,False,False
+original_local_models,157622,121a,121,REFUTES,Bhagat Singh was not a folk hero .,True,True
+original_local_models,1576220000002,121b,121,SUPPORTS,Bhagat Singh was not a folk hero .,False,False
+original_local_models,1576220000003,121c,121,SUPPORTS,Bhagat Singh was a folk hero .,True,True
+original_local_models,1576220000004,121d,121,REFUTES,Bhagat Singh was a folk hero .,True,True
+original_local_models,157777,122a,122,REFUTES,Yale University 's alumni includes zero U.S. Presidents .,True,True
+original_local_models,1577770000002,122b,122,SUPPORTS,Yale University 's alumni includes zero U.S. Presidents .,True,True
+original_local_models,1577770000003,122c,122,SUPPORTS,Yale University 's alumni includes five U.S. Presidents .,True,True
+original_local_models,1577770000004,122d,122,REFUTES,Yale University 's alumni includes five U.S. Presidents .,True,True
+original_local_models,159574,123a,123,SUPPORTS,Dan O'Bannon worked primarily in two genres .,True,True
+original_local_models,1595740000002,123b,123,REFUTES,Dan O'Bannon worked primarily in two genres .,False,False
+original_local_models,1595740000003,123c,123,REFUTES,Dan O'Bannon worked only in one genre .,True,True
+original_local_models,1595740000004,123d,123,SUPPORTS,Dan O'Bannon worked only in one genre .,False,False
+original_local_models,159944,124a,124,SUPPORTS,Christa McAuliffe taught social studies at Concord High School .,True,True
+original_local_models,1599440000002,124b,124,REFUTES,Christa McAuliffe taught social studies at Concord High School .,True,True
+original_local_models,1599440000003,124c,124,REFUTES,Christa McAuliffe taught physical education at Concord High School .,True,True
+original_local_models,1599440000004,124d,124,SUPPORTS,Christa McAuliffe taught physical education at Concord High School .,True,True
+original_local_models,161571,125a,125,SUPPORTS,Baz Luhrmann 's film Australia is solely an epic historical romantic comedy .,False,False
+original_local_models,1615710000002,125b,125,REFUTES,Baz Luhrmann 's film Australia is solely an epic historical romantic comedy .,True,True
+original_local_models,1615710000003,125c,125,REFUTES,Baz Luhrmann 's film Australia is solely a horror movie .,True,True
+original_local_models,1615710000004,125d,125,SUPPORTS,Baz Luhrmann 's film Australia is solely a horror movie .,False,False
+original_local_models,163980,126a,126,REFUTES,Veeram is something other than an Indian Tamil film .,False,False
+original_local_models,1639800000002,126b,126,SUPPORTS,Veeram is something other than an Indian Tamil film .,True,True
+original_local_models,1639800000003,126c,126,SUPPORTS,Veeram is an Indian Tamil film .,True,True
+original_local_models,1639800000004,126d,126,REFUTES,Veeram is an Indian Tamil film .,True,True
+original_local_models,164982,127a,127,SUPPORTS,Polar bears depend on the ocean as their main food source .,True,True
+original_local_models,1649820000002,127b,127,REFUTES,Polar bears depend on the ocean as their main food source .,True,True
+original_local_models,1649820000003,127c,127,REFUTES,Polar bears depend on the land as their main food source .,True,True
+original_local_models,1649820000004,127d,127,SUPPORTS,Polar bears depend on the land as their main food source .,False,False
+original_local_models,165898,128a,128,SUPPORTS,Alice Cooper has been working in his field for over 50 years .,True,True
+original_local_models,1658980000002,128b,128,REFUTES,Alice Cooper has been working in his field for over 50 years .,True,True
+original_local_models,1658980000003,128c,128,REFUTES,Alice Cooper has been working in his field for 30 years .,False,False
+original_local_models,1658980000004,128d,128,SUPPORTS,Alice Cooper has been working in his field for 30 years .,True,True
+original_local_models,166633,129a,129,REFUTES,Anne Rice was born in 1997 .,True,True
+original_local_models,1666330000002,129b,129,SUPPORTS,Anne Rice was born in 1997 .,False,False
+original_local_models,1666330000003,129c,129,SUPPORTS,Anne Rice was born in 1941 .,True,True
+original_local_models,1666330000004,129d,129,REFUTES,Anne Rice was born in 1941 .,True,True
+original_local_models,166916,130a,130,REFUTES,Johanna Braddy is known to have no appearances on television .,True,True
+original_local_models,1669160000002,130b,130,SUPPORTS,Johanna Braddy is known to have no appearances on television .,False,False
+original_local_models,1669160000003,130c,130,SUPPORTS,Johanna Braddy is known to have several appearances on television .,False,False
+original_local_models,1669160000004,130d,130,REFUTES,Johanna Braddy is known to have several appearances on television .,True,True
+original_local_models,168975,131a,131,REFUTES,Middle-earth is a real place .,True,True
+original_local_models,1689750000002,131b,131,SUPPORTS,Middle-earth is a real place .,False,False
+original_local_models,1689750000003,131c,131,SUPPORTS,Middle-earth is a fictional place .,True,True
+original_local_models,1689750000004,131d,131,REFUTES,Middle-earth is a fictional place .,True,True
+original_local_models,168976,132a,132,SUPPORTS,Middle-earth was created by British writer J. R. R. Tolkien .,True,True
+original_local_models,1689760000002,132b,132,REFUTES,Middle-earth was created by British writer J. R. R. Tolkien .,True,True
+original_local_models,1689760000003,132c,132,REFUTES,Middle-earth was created by British writer J. R. R. Martin .,True,True
+original_local_models,1689760000004,132d,132,SUPPORTS,Middle-earth was created by British writer J. R. R. Martin .,False,False
+original_local_models,170396,133a,133,SUPPORTS,Michael Vick is an American .,True,True
+original_local_models,1703960000002,133b,133,REFUTES,Michael Vick is an American .,True,True
+original_local_models,1703960000003,133c,133,REFUTES,Michael Vick is an African .,True,True
+original_local_models,1703960000004,133d,133,SUPPORTS,Michael Vick is an African .,False,False
+original_local_models,170398,134a,134,REFUTES,Michael Vick is only Armenian .,True,True
+original_local_models,1703980000002,134b,134,SUPPORTS,Michael Vick is only Armenian .,False,False
+original_local_models,1703980000003,134c,134,SUPPORTS,Michael Vick is only American .,True,True
+original_local_models,1703980000004,134d,134,REFUTES,Michael Vick is only American .,True,True
+original_local_models,170406,135a,135,REFUTES,"Michael Vick graduated college on June 26th , 1980 .",True,True
+original_local_models,1704060000002,135b,135,SUPPORTS,"Michael Vick graduated college on June 26th , 1980 .",False,False
+original_local_models,1704060000003,135c,135,SUPPORTS,"Michael Vick was born on June 26th , 1980 .",True,True
+original_local_models,1704060000004,135d,135,REFUTES,"Michael Vick was born on June 26th , 1980 .",False,False
+original_local_models,170949,136a,136,SUPPORTS,Smriti Mandhana is an Indian cricketer born in July .,True,True
+original_local_models,1709490000002,136b,136,REFUTES,Smriti Mandhana is an Indian cricketer born in July .,True,True
+original_local_models,1709490000003,136c,136,REFUTES,Smriti Mandhana is a Pakistani cricketer born in July .,True,True
+original_local_models,1709490000004,136d,136,SUPPORTS,Smriti Mandhana is a Pakistani cricketer born in July .,False,False
+original_local_models,173121,137a,137,SUPPORTS,Anne Sullivan was born in April of 1866 .,True,True
+original_local_models,1731210000002,137b,137,REFUTES,Anne Sullivan was born in April of 1866 .,True,True
+original_local_models,1731210000003,137c,137,REFUTES,Anne Sullivan was born in June of 1866 .,True,True
+original_local_models,1731210000004,137d,137,SUPPORTS,Anne Sullivan was born in June of 1866 .,True,True
+original_local_models,173496,138a,138,SUPPORTS,Sancho Panza is a character in Don Quixote .,True,True
+original_local_models,1734960000002,138b,138,REFUTES,Sancho Panza is a character in Don Quixote .,True,True
+original_local_models,1734960000003,138c,138,REFUTES,Sancho Panza is a character in Alibaba .,True,True
+original_local_models,1734960000004,138d,138,SUPPORTS,Sancho Panza is a character in Alibaba .,False,False
+original_local_models,174026,139a,139,REFUTES,The Endless River is an album by Danny Devito .,True,True
+original_local_models,1740260000002,139b,139,SUPPORTS,The Endless River is an album by Danny Devito .,True,True
+original_local_models,1740260000003,139c,139,SUPPORTS,The Endless River is not an album by Danny Devito .,False,False
+original_local_models,1740260000004,139d,139,REFUTES,The Endless River is not an album by Danny Devito .,True,True
+original_local_models,174580,140a,140,REFUTES,"Artpop only sold about 100,000 copies .",True,True
+original_local_models,1745800000002,140b,140,SUPPORTS,"Artpop only sold about 100,000 copies .",True,True
+original_local_models,1745800000003,140c,140,SUPPORTS,"Artpop sold more than 100,000 copies .",True,True
+original_local_models,1745800000004,140d,140,REFUTES,"Artpop sold more than 100,000 copies .",False,False
+original_local_models,179007,141a,141,SUPPORTS,Steve Ditko studied at the Cartoonist and Illustrators School .,True,True
+original_local_models,1790070000002,141b,141,REFUTES,Steve Ditko studied at the Cartoonist and Illustrators School .,True,True
+original_local_models,1790070000003,141c,141,REFUTES,Steve Ditko studied at the Berklee School of Music .,True,True
+original_local_models,1790070000004,141d,141,SUPPORTS,Steve Ditko studied at the Berklee School of Music .,True,True
+original_local_models,180732,142a,142,SUPPORTS,Victoria ( Dance Exponents song ) was in 1982 .,True,True
+original_local_models,1807320000002,142b,142,REFUTES,Victoria ( Dance Exponents song ) was in 1982 .,True,True
+original_local_models,1807320000003,142c,142,REFUTES,Victoria ( Dance Exponents song ) was in 1979 .,True,True
+original_local_models,1807320000004,142d,142,SUPPORTS,Victoria ( Dance Exponents song ) was in 1979 .,True,True
+original_local_models,181634,143a,143,SUPPORTS,There is a capital called Mogadishu .,True,True
+original_local_models,1816340000002,143b,143,REFUTES,There is a capital called Mogadishu .,False,False
+original_local_models,1816340000003,143c,143,REFUTES,There is a country called Mogadishu .,False,False
+original_local_models,1816340000004,143d,143,SUPPORTS,There is a country called Mogadishu .,False,False
+original_local_models,181871,144a,144,SUPPORTS,Princess Mononoke has a dark atmosphere .,True,True
+original_local_models,1818710000002,144b,144,REFUTES,Princess Mononoke has a dark atmosphere .,True,True
+original_local_models,1818710000003,144c,144,REFUTES,Princess Mononoke has a happy atmosphere .,True,True
+original_local_models,1818710000004,144d,144,SUPPORTS,Princess Mononoke has a happy atmosphere .,True,True
+original_local_models,184050,145a,145,SUPPORTS,Kenneth Lonergan is a writer of plays .,True,True
+original_local_models,1840500000002,145b,145,REFUTES,Kenneth Lonergan is a writer of plays .,False,False
+original_local_models,1840500000003,145c,145,REFUTES,Kenneth Lonergan is a writer of books .,True,True
+original_local_models,1840500000004,145d,145,SUPPORTS,Kenneth Lonergan is a writer of books .,True,True
+original_local_models,184083,146a,146,SUPPORTS,Ernest Medina participated in the My Lai Massacre .,True,True
+original_local_models,1840830000002,146b,146,REFUTES,Ernest Medina participated in the My Lai Massacre .,True,True
+original_local_models,1840830000003,146c,146,REFUTES,Ernest Medina was away from the My Lai Massacre .,False,False
+original_local_models,1840830000004,146d,146,SUPPORTS,Ernest Medina was away from the My Lai Massacre .,False,False
+original_local_models,186996,147a,147,SUPPORTS,Bermuda Triangle is also known by another name .,True,True
+original_local_models,1869960000002,147b,147,REFUTES,Bermuda Triangle is also known by another name .,True,True
+original_local_models,1869960000003,147c,147,REFUTES,Bermuda Triangle has no other name .,False,False
+original_local_models,1869960000004,147d,147,SUPPORTS,Bermuda Triangle has no other name .,False,False
+original_local_models,192714,148a,148,SUPPORTS,CBS is the network that aired The Millers .,True,True
+original_local_models,1927140000002,148b,148,REFUTES,CBS is the network that aired The Millers .,True,True
+original_local_models,1927140000003,148c,148,REFUTES,ABC is the network that aired The Millers .,False,False
+original_local_models,1927140000004,148d,148,SUPPORTS,ABC is the network that aired The Millers .,False,False
+original_local_models,194922,149a,149,SUPPORTS,Stripes had a person appear in it .,False,False
+original_local_models,1949220000002,149b,149,REFUTES,Stripes had a person appear in it .,True,True
+original_local_models,1949220000003,149c,149,REFUTES,Stripes was computer animated .,True,True
+original_local_models,1949220000004,149d,149,SUPPORTS,Stripes was computer animated .,False,False
+original_local_models,195818,150a,150,REFUTES,Jeong Hyeong-don has refused to ever work under FNC Entertainment .,True,True
+original_local_models,1958180000002,150b,150,SUPPORTS,Jeong Hyeong-don has refused to ever work under FNC Entertainment .,True,True
+original_local_models,1958180000003,150c,150,SUPPORTS,Jeong Hyeong-don works under FNC Entertainment .,True,True
+original_local_models,1958180000004,150d,150,REFUTES,Jeong Hyeong-don works under FNC Entertainment .,True,True
+original_local_models,196740,151a,151,REFUTES,Marnie is a romantic film .,True,True
+original_local_models,1967400000002,151b,151,SUPPORTS,Marnie is a romantic film .,True,True
+original_local_models,1967400000003,151c,151,SUPPORTS,Marnie is a psychological thriller film .,True,True
+original_local_models,1967400000004,151d,151,REFUTES,Marnie is a psychological thriller film .,True,True
+original_local_models,196960,152a,152,SUPPORTS,Diwali spiritually signifies the victory of light over darkness .,True,True
+original_local_models,1969600000002,152b,152,REFUTES,Diwali spiritually signifies the victory of light over darkness .,True,True
+original_local_models,1969600000003,152c,152,REFUTES,Diwali spiritually signifies the victory of children over parents .,True,True
+original_local_models,1969600000004,152d,152,SUPPORTS,Diwali spiritually signifies the victory of children over parents .,True,True
+original_local_models,197381,153a,153,REFUTES,Simón Bolívar is only known as Simón Bolívar .,False,False
+original_local_models,1973810000002,153b,153,SUPPORTS,Simón Bolívar is only known as Simón Bolívar .,False,False
+original_local_models,1973810000003,153c,153,SUPPORTS,Simón Bolívar is known as El Libertador .,True,True
+original_local_models,1973810000004,153d,153,REFUTES,Simón Bolívar is known as El Libertador .,False,False
+original_local_models,199410,154a,154,SUPPORTS,"Boyhood is about Mason Evans , Jr 's childhood .",True,True
+original_local_models,1994100000002,154b,154,REFUTES,"Boyhood is about Mason Evans , Jr 's childhood .",True,True
+original_local_models,1994100000003,154c,154,REFUTES,"Boyhood is about Mason Evans , Jr 's death .",True,True
+original_local_models,1994100000004,154d,154,SUPPORTS,"Boyhood is about Mason Evans , Jr 's death .",True,True
+original_local_models,201095,155a,155,SUPPORTS,There is a British actor name Marcus Bentley .,True,True
+original_local_models,2010950000002,155b,155,REFUTES,There is a British actor name Marcus Bentley .,True,True
+original_local_models,2010950000003,155c,155,REFUTES,There is an Indian actor name Marcus Bentley .,True,True
+original_local_models,2010950000004,155d,155,SUPPORTS,There is an Indian actor name Marcus Bentley .,True,True
+original_local_models,202454,156a,156,REFUTES,Tinker Tailor Soldier Spy is a music video .,True,True
+original_local_models,2024540000002,156b,156,SUPPORTS,Tinker Tailor Soldier Spy is a music video .,False,False
+original_local_models,2024540000003,156c,156,SUPPORTS,Tinker Tailor Soldier Spy is an espionage film .,True,True
+original_local_models,2024540000004,156d,156,REFUTES,Tinker Tailor Soldier Spy is an espionage film .,True,True
+original_local_models,202940,157a,157,SUPPORTS,Avenged Sevenfold was released in October .,True,True
+original_local_models,2029400000002,157b,157,REFUTES,Avenged Sevenfold was released in October .,True,True
+original_local_models,2029400000003,157c,157,REFUTES,Avenged Sevenfold was released in March .,True,True
+original_local_models,2029400000004,157d,157,SUPPORTS,Avenged Sevenfold was released in March .,True,True
+original_local_models,204361,158a,158,SUPPORTS,The Cretaceous ended .,True,True
+original_local_models,2043610000002,158b,158,REFUTES,The Cretaceous ended .,True,True
+original_local_models,2043610000003,158c,158,REFUTES,The Cretaceous began .,True,True
+original_local_models,2043610000004,158d,158,SUPPORTS,The Cretaceous began .,False,False
+original_local_models,204432,159a,159,REFUTES,Brad Wilk died before helping to co-found Rage .,True,True
+original_local_models,2044320000002,159b,159,SUPPORTS,Brad Wilk died before helping to co-found Rage .,False,False
+original_local_models,2044320000003,159c,159,SUPPORTS,Brad Wilk helped to co-found Rage .,True,True
+original_local_models,2044320000004,159d,159,REFUTES,Brad Wilk helped to co-found Rage .,True,True
+original_local_models,205739,160a,160,REFUTES,First Motion Picture Unit produced zero training films .,True,True
+original_local_models,2057390000002,160b,160,SUPPORTS,First Motion Picture Unit produced zero training films .,False,False
+original_local_models,2057390000003,160c,160,SUPPORTS,First Motion Picture Unit produced 400 training films .,True,True
+original_local_models,2057390000004,160d,160,REFUTES,First Motion Picture Unit produced 400 training films .,True,True
+original_local_models,208414,161a,161,SUPPORTS,Excuse My French is the debut album of an artist .,True,True
+original_local_models,2084140000002,161b,161,REFUTES,Excuse My French is the debut album of an artist .,True,True
+original_local_models,2084140000003,161c,161,REFUTES,Excuse My French is a TV series .,True,True
+original_local_models,2084140000004,161d,161,SUPPORTS,Excuse My French is a TV series .,True,True
+original_local_models,211286,162a,162,SUPPORTS,The Closer 's final season was its seventh season .,True,True
+original_local_models,2112860000002,162b,162,REFUTES,The Closer 's final season was its seventh season .,True,True
+original_local_models,2112860000003,162c,162,REFUTES,The Closer 's final season was its eighth season .,True,True
+original_local_models,2112860000004,162d,162,SUPPORTS,The Closer 's final season was its eighth season .,True,True
+original_local_models,215135,163a,163,REFUTES,Private Lives is a 1940 comedy in three acts by Noel Coward .,True,True
+original_local_models,2151350000002,163b,163,SUPPORTS,Private Lives is a 1940 comedy in three acts by Noel Coward .,True,True
+original_local_models,2151350000003,163c,163,SUPPORTS,Private Lives is a 1930 comedy in three acts by Noel Coward .,True,True
+original_local_models,2151350000004,163d,163,REFUTES,Private Lives is a 1930 comedy in three acts by Noel Coward .,True,True
+original_local_models,215224,164a,164,REFUTES,Dreamer ( 2005 film ) is a Canadian sports film .,True,True
+original_local_models,2152240000002,164b,164,SUPPORTS,Dreamer ( 2005 film ) is a Canadian sports film .,True,True
+original_local_models,2152240000003,164c,164,SUPPORTS,Dreamer ( 2005 film ) is a American sports film .,True,True
+original_local_models,2152240000004,164d,164,REFUTES,Dreamer ( 2005 film ) is a American sports film .,True,True
+original_local_models,215477,165a,165,REFUTES,"Weekly Idol has one host , Mickey Rourke .",True,True
+original_local_models,2154770000002,165b,165,SUPPORTS,"Weekly Idol has one host , Mickey Rourke .",False,False
+original_local_models,2154770000003,165c,165,SUPPORTS,Weekly Idol had Jeong Hyeong-don as a host .,True,True
+original_local_models,2154770000004,165d,165,REFUTES,Weekly Idol had Jeong Hyeong-don as a host .,True,True
+original_local_models,216387,166a,166,SUPPORTS,Homer Hickman wrote some historical fiction novels .,True,True
+original_local_models,2163870000002,166b,166,REFUTES,Homer Hickman wrote some historical fiction novels .,True,True
+original_local_models,2163870000003,166c,166,REFUTES,Homer Hickman did not write any historical fiction novels .,True,True
+original_local_models,2163870000004,166d,166,SUPPORTS,Homer Hickman did not write any historical fiction novels .,False,False
+original_local_models,218252,167a,167,REFUTES,Libya is a country in Europe .,True,True
+original_local_models,2182520000002,167b,167,SUPPORTS,Libya is a country in Europe .,False,False
+original_local_models,2182520000003,167c,167,SUPPORTS,Libya is a country in Africa .,True,True
+original_local_models,2182520000004,167d,167,REFUTES,Libya is a country in Africa .,True,True
+original_local_models,219028,168a,168,REFUTES,Savages was exclusively a German film .,True,True
+original_local_models,2190280000002,168b,168,SUPPORTS,Savages was exclusively a German film .,False,False
+original_local_models,2190280000003,168c,168,SUPPORTS,Savages was exclusively an American film .,True,True
+original_local_models,2190280000004,168d,168,REFUTES,Savages was exclusively an American film .,True,True
+original_local_models,219126,169a,169,SUPPORTS,"Valencia has about 800,000 inhabitants , making it the third largest city in Spain .",True,True
+original_local_models,2191260000002,169b,169,REFUTES,"Valencia has about 800,000 inhabitants , making it the third largest city in Spain .",True,True
+original_local_models,2191260000003,169c,169,REFUTES,"Valencia has about 10,000 inhabitants , making it the third smallest city in Spain .",True,True
+original_local_models,2191260000004,169d,169,SUPPORTS,"Valencia has about 10,000 inhabitants , making it the third smallest city in Spain .",True,True
+original_local_models,219132,170a,170,REFUTES,Valencia is in America .,True,True
+original_local_models,2191320000002,170b,170,SUPPORTS,Valencia is in America .,False,False
+original_local_models,2191320000003,170c,170,SUPPORTS,Valencia is in Spain .,True,True
+original_local_models,2191320000004,170d,170,REFUTES,Valencia is in Spain .,True,True
+original_local_models,221085,171a,171,SUPPORTS,A & E is a cable and satellite television network .,True,True
+original_local_models,2210850000002,171b,171,REFUTES,A & E is a cable and satellite television network .,True,True
+original_local_models,2210850000003,171c,171,REFUTES,A & E is a porn website .,True,True
+original_local_models,2210850000004,171d,171,SUPPORTS,A & E is a porn website .,False,False
+original_local_models,222026,172a,172,REFUTES,Brubaker is a solely Australian film .,True,True
+original_local_models,2220260000002,172b,172,SUPPORTS,Brubaker is a solely Australian film .,False,False
+original_local_models,2220260000003,172c,172,SUPPORTS,Brubaker is an American film .,True,True
+original_local_models,2220260000004,172d,172,REFUTES,Brubaker is an American film .,True,True
+original_local_models,225239,173a,173,REFUTES,Danielle Cormack was born in May .,True,True
+original_local_models,2252390000002,173b,173,SUPPORTS,Danielle Cormack was born in May .,True,True
+original_local_models,2252390000003,173c,173,SUPPORTS,Danielle Cormack was born in December .,True,True
+original_local_models,2252390000004,173d,173,REFUTES,Danielle Cormack was born in December .,True,True
+original_local_models,226146,174a,174,REFUTES,Richard Dawkins has yet to appear on the internet .,True,True
+original_local_models,2261460000002,174b,174,SUPPORTS,Richard Dawkins has yet to appear on the internet .,False,False
+original_local_models,2261460000003,174c,174,SUPPORTS,Richard Dawkins appeared on the internet .,True,True
+original_local_models,2261460000004,174d,174,REFUTES,Richard Dawkins appeared on the internet .,True,True
+original_local_models,226877,175a,175,SUPPORTS,Jenna Jameson worked as a glamor model and a stripper .,True,True
+original_local_models,2268770000002,175b,175,REFUTES,Jenna Jameson worked as a glamor model and a stripper .,True,True
+original_local_models,2268770000003,175c,175,REFUTES,Jenna Jameson was a politician .,True,True
+original_local_models,2268770000004,175d,175,SUPPORTS,Jenna Jameson was a politician .,False,False
+original_local_models,227080,176a,176,SUPPORTS,Roar ( song ) is on the 2013 Katy Perry album Prism .,True,True
+original_local_models,2270800000002,176b,176,REFUTES,Roar ( song ) is on the 2013 Katy Perry album Prism .,True,True
+original_local_models,2270800000003,176c,176,REFUTES,Roar ( song ) is on the 2013 Lady Gaga album Prism .,True,True
+original_local_models,2270800000004,176d,176,SUPPORTS,Roar ( song ) is on the 2013 Lady Gaga album Prism .,True,True
+original_local_models,227369,177a,177,SUPPORTS,The Food Network is a channel that ran Giada at Home .,True,True
+original_local_models,2273690000002,177b,177,REFUTES,The Food Network is a channel that ran Giada at Home .,True,True
+original_local_models,2273690000003,177c,177,REFUTES,HBO is a channel that ran Giada at Home .,True,True
+original_local_models,2273690000004,177d,177,SUPPORTS,HBO is a channel that ran Giada at Home .,True,True

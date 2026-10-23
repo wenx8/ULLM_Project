@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-10-23T10:48:46.743752+00:00",
+  "judge_version": "answer-extraction-v1",
+  "judge_enabled": true,
+  "judge_model": "claude-haiku-5-5",
+  "judge_max_tokens": 1024,
+  "judge_prices_usd_per_million": {
+    "input": 0.1,
+    "output": 0.5
+  },
+  "max_cumulative_judge_cost_usd": 0.5,
+  "judge_cumulative_estimated_cost_usd": 0.0786262000000001,
+  "sources": {
+    "GPT-OSS-20B": {
+      "path": "C:\\Users\\borka\\Documents\\ULLM\\ULLM_Project\\pilot_results_gpt-oss-20b.csv",
+      "sha256": "f162134677e39f3267ade32ae1d871663822c88783d2807e620f952a0ce0fd76",
+      "unchanged_during_scoring": true
+    },
+    "Llama-3.1-8B": {
+      "path": "C:\\Users\\borka\\Documents\\ULLM\\ULLM_Project\\pilot_results_llama-3.1-8b.csv",
+      "sha256": "a176ba621cb342594c28b850a02ea0da3812d89372209079ac198e01f2595e55",
+      "unchanged_during_scoring": true
+    },
+    "Haiku-5.5": {
+      "path": "C:\\Users\\borka\\Documents\\ULLM\\ULLM_Project\\results\\haiku_symmetric\\results.csv",
+      "sha256": "32a0d2e04c00eb5e9387b06c1a1cdd240920aa310be458b89c8a4f210111473e",
+      "unchanged_during_scoring": true
+    },
+    "Sonnet-5.5": {
+      "path": "C:\\Users\\borka\\Documents\\ULLM\\ULLM_Project\\results\\sonnet_symmetric\\results.csv",
+      "sha256": "b5eb59e61399ea7781613359a97d41695963bcb5ee206eec5c1fc1f57644ac56",
+      "unchanged_during_scoring": true
+    }
+  },
+  "overrides": null,
+  "supplemental": "C:\\Users\\borka\\Documents\\ULLM\\ULLM_Project\\results\\review\\supplemental_requests.jsonl",
+  "unresolved_decisions": 20,
+  "response_count": 10203,
+  "note": "Original files untouched. Judge labels are automatic extraction decisions, not human validation."
+}
